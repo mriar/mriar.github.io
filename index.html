@@ -4,97 +4,92 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="css" href="styles/reset.css">
-  <link rel="stylesheet" type="css" href="styles/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Roboto+Slab:400,700|Roboto:100,300,300i,400,400i,500,700,900&display=swap" rel="stylesheet">
-  <title>Portfolio | Manpreet Riar</title>
+  <link rel="stylesheet" type="text/css" href="styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 
 <body>
 
   <!-- Navigation bar with logo on left and nav links on right-->
-<div class="container">
-  <nav>
-    <div class="navbar-right">
-      <ul>
-        <li>
-          <a href="/">Work</a>
-        </li>
-        <li>
-          <a href="/print">Resume</a>
-        </li>
-        <li>
-          <a href="/web">About</a>
-        </li>
-        <li>
-          <a href="/contact">Contact</a>
-        </li>
+  <div class="container">
+    <nav>
+      <ul class="navbar">
+        <li class="navbar-left"><img src="/images/logo.png" alt="logo"></li>
+        <li class="navbar-right">Work</li>
+        <li class="navbar-right">Resume</li>
+        <li class="navbar-right">About</li>
+        <li class="navbar-right">Contact</li>
       </ul>
+    </nav>
+
+    <!-- Hero image & Introduction text-->
+
+    <section class="portfolio-intro">
+      <h2>Hello! I'm</h2>
+      <h1> Manpreet,</h1>
+      <p class="slogan">I’m a Seattle based UX designer, designing digital experiences for humans.</p>
+      <button type="button" name="button">Learn More About Me</button>
+      <div class="hero-imageLeft">
+        <img src="/images/heroimage.jpg" alt="Profile Photo of Manpreet">
+      </div>
+      <div class="hero-imageRight">
+        <img src="/images/heroimage2.png" alt="Textured Hero Image">
+      </div>
+    </section>
+    <header class="page-title">
+      <h2>Work</h2>
+    </header>
+
+    <!--All work projects displayed here-->
+
+    <section class="projects">
+      <article class="cloud-storage">
+        <img src="/images/cloudful-mockup.png" alt="image of cloud storage project">
+        <h2>CloudFul</h2>
+        <p class="project-description">Personal cloud storage built to help you upload, create, and share files seamlessly through the cloud.</p>
+        <button onclick="window.location.href = '/project.html';">Read More</button>
+      </article>
+    </section>
+
+    <!-- Footer with social links & schedule a meeting button-->
+    <div class="footer">
+      <footer>
+        <h1>Wanna Learn More?</h1>
+        <p class="footer-text">Lets schedule a coffee or phone meeting!</p>
+        <button onclick="window.location.href = 'https://calendly.com/mriar';">Meet with Me</button>
+        <ul class="footer">
+          <li>
+            <a href="https://www.linkedin.com/in/manpreetriar/"><i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/mriar"><i class="fab fa-github-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/m_riar/"><i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:mriar@live.com"><i class="far fa-envelope"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.behance.net/mriar"><i class="fab fa-behance-square"></i>
+            </a>
+          </li>
+        </ul>
+        <h6>© 2019 | Designed & Developed by Manpreet Riar</h6>
+      </footer>
     </div>
-    <div class="navbar-left">
-      <img src="/images/logo.png" alt="">
-    </div>
-  </nav>
-
-  <!-- Hero image & Introduction text-->
-
-  <section class="portfolio-intro">
-    <h2>Hello! I'm</h2>
-    <h1> Manpreet,</h1>
-    <p class="Slogan">I’m a Seattle based UX designer, designing digital experiences for humans.</p>
-    <button type="button" name="button">Learn More About Me</button>
-    <div class="hero-imageLeft">
-      <img src="/images/heroimage.jpg" alt="Profile Photo of Manpreet">
-    </div>
-    <div class="hero-imageRight">
-      <img src="/images/heroimage2.png" alt="Textured Hero Image">
-    </div>
-  </section>
-  <header class="page-title">
-    <h2>Work</h2>
-  </header>
-
-  <!--All work projects displayed here-->
-
-  <section class="projects">
-    <article class="cloud-storage">
-      <img src="/images/cloudful-mockup.png" alt="image of cloud storage project">
-      <h2>CloudFul</h2>
-      <p class="project description">Personal cloud storage built to help you upload, create, and share files seamlessly through the cloud.</p>
-      <button type="button" name="button">Read More</button>
-    </article>
-  </section>
-
-  <!-- Footer with social links & schedule a meeting button-->
-
-  <footer>
-    <h1>Wanna Learn More?</h1>
-    <p class="footer text">Lets schedule a coffee or phone meeting!</p>
-    <button type="button" name="button">Meet with Me</button>
-    <ul class="footer">
-      <li>
-        <a href="https://www.linkedin.com/in/manpreetriar/">LinkedIn
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/mriar">GitHub
-        </a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/m_riar/">Instagram
-        </a>
-      </li>
-      <li>
-        <a href="mailto:mriar@live.com">Email
-        </a>
-      </li>
-      <li>
-        <a href="https://www.behance.net/mriar">Behance
-        </a>
-      </li>
-    </ul>
-    <h6>© 2019 | Designed & Developed by Manpreet Riar</h6>
-  </footer>
   </div>
 </body>
 

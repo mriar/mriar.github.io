@@ -7,21 +7,88 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+/** CSS Grid Setup**/
+.container {
   display: grid;
   grid-template-areas:
     "nav"
     "portfolio-intro"
     "projects"
-    "footer";
-  margin: 0 auto;
+    "footer"
 }
 
-.container {
-  margin: 0 auto;
-  width: 90%;
+.nav ul {
+  display: inline-flex;
+  justify-content: space-between;
 }
 
+.navbar {
+  grid-area: nav;
+}
+
+.portfolio-intro {
+  grid-area: portfolio-intro;
+}
+
+.projects {
+  grid-area: projects;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+/** Typography ( Roboto, Roboto Slab, & Playfair Display)**/
+.slogan {
+  font-family: 'Playfair Display', serif;
+}
+
+button {
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+.project-description {
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-text {
+  font-family: 'Playfair Display', serif;
+}
+
+/** Icons for Footer**/
+.fa-linkedin {
+  color: black;
+}
+
+.fa-github-square {
+  color: black;
+}
+
+.fa-instagram {
+  color: black;
+}
+
+.fa-envelope {
+  color: black;
+}
+
+.fa-behance-square {
+  color: black;
+}
+
+/** Responsive**/
 @media screen and (min-width: 40rem) {
   .container {
     margin: 0 10%;
