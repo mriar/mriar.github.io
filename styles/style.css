@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: grid;
+  grid-template-areas:
+    "nav"
+    "portfolio-intro"
+    "projects"
+    "footer";
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+@media screen and (min-width: 40rem) {
+  .container {
+    margin: 0 10%;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    margin: 0 10%;
+    width: 80%;
+  }
+}
