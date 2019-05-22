@@ -14,7 +14,12 @@ html {
     "nav"
     "portfolio-intro"
     "projects"
-    "footer"
+    "footer";
+    width: 90%;
+    grid-template-rows: auto;
+    grid-template-columns: 375px;
+    overflow: hidden;
+
 }
 
 .nav ul {
