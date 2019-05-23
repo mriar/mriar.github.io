@@ -1,2 +1,2 @@
-**#A showcase of my work from the design Program.
+A showcase of my work from the design Program.
 ![](Screenshot.png)
