@@ -62,8 +62,8 @@ img {
 }
 
 .main-text {
-  padding-top: 10px;
-  padding-right: 5px;
+  padding-top: 1rem;
+  padding-right: .5rem;
 }
 
 .slogan {
@@ -118,25 +118,23 @@ img {
 /** Projects Section**/
 .work {
   text-align: center;
-  padding-top: 1.2rem;
+  padding-top: 3rem;
   font-family: 'Playfair display', serif;
   font-size: 1.8rem;
   font-weight: bold;
-  /*border-bottom: .6rem solid;
-  border-color: #F8C504; */
   color: #0E1F4F;
   background-image: url(/images/portfolio-rectangle.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 20% 30%;
+  background-size: 20% 20%;
   background-position: bottom;
 }
 
 .cloud-storage img {
   width: 80%;
   display: inherit;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
 
 h2 {
@@ -254,16 +252,146 @@ h6 {
   font-weight: lighter;
   font-size: 1.6rem;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
-/** Responsive**/
+/** Responsive for ipad**/
 @media screen and (min-width: 42rem) {
+
+  /*top hero section*/
+
   .container {
-    margin: 0 10%;
-    width: 80%;
+    margin: 0 auto%;
+    width: 100%;
   }
+  .portfolio-intro {
+    height: 30rem;
+    padding-top: 6rem;
+  }
+  .main-text {
+    padding-top: 2rem;
+    padding-right: 5px;
+  }
+  .manpreet {
+    width: 35rem;
+  }
+  .slogan {
+    font-size: 2.4rem;
+    width: 38rem;
+    padding-top: 1rem;
+    padding-bottom: .8rem;
+  }
+
+  .learn-more {
+    font-size: 1.6rem;
+    height: 3.5rem;
+    width: 20rem;
+    margin-top: 1.5rem;
+  }
+
+  .intro-text {
+    font-size: 3rem;
+    padding-right: .5rem;
+  }
+
+  .name {
+    font-size: 3rem;
+  }
+
+  /*Projects*/
+
+  .work {
+    padding-top: 4rem;
+    font-size: 2.4rem;
+    background-size: 15% 20%;
+  }
+  .cloud-storage img {
+    width: 36%;
+    float:left;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+  }
+  h2 {
+    padding-left: 30rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    padding-top: 5rem;
+  }
+
+  .project-description {
+    font-size: 1.8rem;
+    padding-left: 30rem;
+    line-height: 150%;
+    padding-top: 1rem;
+  }
+
+  .read-more {
+    font-size: 1.6rem;
+    height: 3rem;
+    width: 12rem;
+    padding: 0;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+.cloud-storage {
+  margin-top: 2rem;
 }
 
+/*Footer*/
+
+.footer-title {
+  font-size: 2.4rem;
+  padding-top: 3rem;
+}
+
+.footer-text {
+  font-size: 2rem;
+  padding-top: 1.5rem;
+}
+
+.meet-me {
+  font-size: 1.6rem;
+  height: 3rem;
+  width: 14rem;
+  position: relative;
+  left: 32rem;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.icons {
+  margin: 5rem;
+}
+
+.fa-linkedin {
+  font-size: 4rem;
+}
+
+.fa-github-square {
+  font-size: 4rem;
+}
+
+.fa-instagram {
+  font-size: 4rem;
+}
+
+.fa-envelope {
+  font-size: 4rem;
+}
+
+.fa-behance-square {
+  font-size: 4rem;
+}
+
+h6 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+.footer {
+  margin-top: 4rem;
+}
+}
+/** Responsive for Desktop**/
 @media screen and (min-width: 1000px) {
   .container {
     *margin: 0 10%;

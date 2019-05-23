@@ -141,7 +141,7 @@ align-items: center;
 
 /* 48em = 768px */
 
-@media (min-width: 40rem) {
+@media (min-width: 42rem) {
   .header li {
     float: left;
   }
@@ -152,6 +152,8 @@ align-items: center;
     clear: none;
     float: right;
     max-height: none;
+    position: relative;
+    width: 65%;
   }
   .header .menu-icon {
     display: none;
@@ -179,4 +181,14 @@ align-items: center;
     height: 6rem;
     z-index: 3;
   }
+
+
+  .logo {
+  width: 9%;
+  height: 2%;
+  padding: 4%;
+  margin-left: 2%;
+  align-items: center;
+  }
+
 }
