@@ -1,6 +1,6 @@
 header {
-  margin: 0 auto;
   background-color: #f4f4f4;
+  margin: 0 auto;
 }
 
 html {
@@ -13,8 +13,8 @@ img {
 
 a {
   color: #FF3E55;
-  font-size: 1.2rem;
   font-family: 'Roboto Slab', serif;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -22,25 +22,25 @@ a {
 .header {
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+  height: 5rem;
   position: fixed;
   width: 100%;
-  height: 5rem;
   z-index: 3;
 }
 
 .logo {
-  width: 15%;
+  align-items: center;
   height: 2%;
   padding: 2%;
-  align-items: center;
+  width: 15%;
 }
 
 .header ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  overflow: hidden;
   background-color: #fff;
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
 }
 
 .header li a {
@@ -91,13 +91,13 @@ a {
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
+  align-items: center;
   background: #FF3E55;
   content: '';
   display: block;
   height: 100%;
   position: absolute;
   transition: all .2s ease-out;
-  align-items: center;
   width: 100%;
 }
 
@@ -164,8 +164,8 @@ a {
 
   a {
     color: #FF3E55;
-    font-size: 1.8rem;
     font-family: 'Roboto Slab', serif;
+    font-size: 1.8rem;
     font-weight: bold;
   }
 
@@ -173,19 +173,19 @@ a {
   .header {
     background-color: #fff;
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+    height: 6rem;
     position: fixed;
     width: 100%;
-    height: 6rem;
     z-index: 3;
   }
 
   .logo {
-    width: 9%;
-    height: 2%;
-    padding: 4%;
-    margin-left: 2%;
     align-items: center;
+    height: 2%;
+    margin-left: 2%;
+    padding: 4%;
+    width: 9%;
   }
 }
 
-/*Desktop Responsive design*/
+/*Desktop Responsive design coming soon in next checkpoint*/
