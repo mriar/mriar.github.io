@@ -21,8 +21,8 @@ img {
     "footer";
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  overflow: hidden;
   margin: 0 auto;
+  overflow: hidden;
   width: 100%;
 }
 
@@ -45,130 +45,129 @@ img {
 /** Hero image Section**/
 .portfolio-intro {
   background-image: url(/images/heroimage2.png);
-  float: right;
-  width: 100%;
-  height: 22rem;
-  padding-top: 50px;
   display: flex;
   flex-direction: row-reverse;
+  float: right;
+  height: 22rem;
   justify-content: space-between;
+  padding-top: 50px;
+  width: 100%;
 }
 
 .manpreet {
   display: inline;
   float: left;
-  width: 17rem;
   height: 100%;
+  width: 17rem;
 }
 
 .main-text {
-  padding-top: 1rem;
   padding-right: .5rem;
+  padding-top: 1rem;
 }
 
 .slogan {
+  color: #0E1F4F;
   font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.8rem;
   left: 150px;
   line-height: 130%;
-  top: 90px;
-  width: 19rem;
-  color: #0E1F4F;
   padding-top: .6rem;
   padding-bottom: .8rem;
+  top: 90px;
+  width: 19rem;
 }
 
 .learn-more {
   background: #FF3E55;
   border-radius: .2rem;
   border-style: none;
-  font-size: 1.2rem;
-  font-family: 'Roboto Slab', serif;
-  font-weight: bold;
   color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.2rem;
+  font-weight: bold;
   height: 2.5rem;
-  width: 15rem;
   padding: 0;
+  width: 15rem;
 }
 
 .intro-text {
-  width: 188.89px;
-  height: 20px;
-  left: 150px;
-  top: 65px;
+  color: #0E1F4F;
+  display: inline;
   font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.8rem;
+  height: 20px;
+  left: 150px;
   line-height: 100%;
-  display: inline;
-  color: #0E1F4F;
+  top: 65px;
+  width: 188.89px;
 }
 
 .name {
-  font-style: 'Playfair Display', serif;
-  font-weight: bold;
-  font-size: 1.8rem;
   color: #0E1F4F;
   display: inline;
+  font-style: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
 /** Projects Section**/
 .work {
-  text-align: center;
-  padding-top: 3rem;
+  background-image: url(/images/portfolio-rectangle.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 20% 20%;
+  color: #0E1F4F;
   font-family: 'Playfair display', serif;
   font-size: 1.8rem;
   font-weight: bold;
-  color: #0E1F4F;
-  background-image: url(/images/portfolio-rectangle.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 20% 20%;
-  background-position: bottom;
+  padding-top: 3rem;
+  text-align: center;
 }
 
 .cloud-storage img {
-  width: 80%;
   display: inherit;
-  padding-top: 3rem;
   padding-bottom: 2rem;
+  padding-top: 3rem;
+  width: 80%;
 }
 
 h2 {
-  padding-left: 2rem;
-  padding-bottom: 1rem;
+  color: #0E1F4F;
   font-family: 'Playfair Display', serif;
   font-size: 1.6rem;
   font-weight: 700;
-  color: #0E1F4F;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
 }
 
 .project-description {
+  color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
-  color: #0E1F4F;
-  padding-left: 2rem;
   line-height: 140%;
+  padding-left: 2rem;
 }
 
 .read-more {
   background: #FF3E55;
+  color: white;
   border-radius: .2rem;
   border-style: none;
   font-size: 1.2rem;
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
-  color: white;
   height: 2.5rem;
-  width: 10rem;
-  padding: 0;
   margin-left: 2rem;
-  margin-top: 1rem;
   margin-bottom: 10rem;
+  margin-top: 1rem;
+  padding: 0;
+  width: 10rem;
 }
 
 /**Footer**/
@@ -178,46 +177,46 @@ h2 {
 }
 
 .footer-title {
-  font-family: 'Playfair Display', serif;
   color: #0E1F4F;
+  font-family: 'Playfair Display', serif;
   font-size: 1.8rem;
   font-weight: bold;
-  text-align: center;
   padding-top: 2rem;
+  text-align: center;
 }
 
 .footer-text {
-  font-family: 'Playfair Display', serif;
   color: #0E1F4F;
+  font-family: 'Playfair Display', serif;
   font-size: 1.6rem;
   font-weight: normal;
-  text-align: center;
   padding-top: .8rem;
+  text-align: center;
 }
 
 .meet-me {
   background: #FF3E55;
+  color: white;
   border-radius: .2rem;
   border-style: none;
-  font-size: 1.2rem;
   font-family: 'Roboto Slab', serif;
+  font-size: 1.2rem;
   font-weight: bold;
-  color: white;
   height: 2.5rem;
-  width: 10rem;
-  position: relative;
   left: 14rem;
-  padding: 0;
   margin-top: 1rem;
+  padding: 0;
+  position: relative;
+  width: 10rem;
 }
 
 .icons {
-  list-style: none;
-  text-align: center;
-  margin: 2rem;
-  position: relative;
   display: flex;
   justify-content: space-evenly;
+  list-style: none;
+  margin: 2rem;
+  position: relative;
+  text-align: center;
   width: auto;
 }
 
@@ -247,12 +246,12 @@ h2 {
 }
 
 h6 {
-  font-family: 'Playfair Display', serif;
   color: #0E1F4F;
-  font-weight: lighter;
+  font-family: 'Playfair Display', serif;
   font-size: 1.6rem;
-  text-align: center;
+  font-weight: lighter;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 /** Responsive for ipad**/
@@ -270,8 +269,8 @@ h6 {
   }
 
   .main-text {
-    padding-top: 2rem;
     padding-right: 5px;
+    padding-top: 2rem;
   }
 
   .manpreet {
@@ -280,16 +279,16 @@ h6 {
 
   .slogan {
     font-size: 2.4rem;
-    width: 38rem;
-    padding-top: 1rem;
     padding-bottom: .8rem;
+    padding-top: 1rem;
+    width: 38rem;
   }
 
   .learn-more {
     font-size: 1.6rem;
     height: 3.5rem;
-    width: 20rem;
     margin-top: 1.5rem;
+    width: 20rem;
   }
 
   .intro-text {
@@ -303,39 +302,39 @@ h6 {
 
   /*Projects*/
   .work {
-    padding-top: 4rem;
-    font-size: 2.4rem;
     background-size: 15% 20%;
+    font-size: 2.4rem;
+    padding-top: 4rem;
   }
 
   .cloud-storage img {
-    width: 36%;
     float: left;
-    padding-top: 4rem;
     padding-bottom: 5rem;
+    padding-top: 4rem;
+    width: 36%;
   }
 
   h2 {
-    padding-left: 30rem;
-    padding-bottom: 1rem;
     font-size: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 30rem;
     padding-top: 5rem;
   }
 
   .project-description {
     font-size: 1.8rem;
-    padding-left: 30rem;
     line-height: 150%;
+    padding-left: 30rem;
     padding-top: 1rem;
   }
 
   .read-more {
     font-size: 1.6rem;
     height: 3rem;
-    width: 12rem;
-    padding: 0;
     margin-left: 2rem;
     margin-top: 2rem;
+    padding: 0;
+    width: 12rem;
   }
 
   .cloud-storage {
@@ -356,11 +355,11 @@ h6 {
   .meet-me {
     font-size: 1.6rem;
     height: 3rem;
-    width: 14rem;
-    position: relative;
     left: 32rem;
-    padding: 0;
     margin-top: 2rem;
+    padding: 0;
+    position: relative;
+    width: 14rem;
   }
 
   .icons {
@@ -397,7 +396,7 @@ h6 {
   }
 }
 
-/** Responsive for Desktop**/
+/** Responsive for Desktop- I will update this in the next responsive checkpoint**/
 @media screen and (min-width: 1000px) {
   .container {
     *margin: 0 10%;
