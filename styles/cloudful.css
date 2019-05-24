@@ -127,3 +127,39 @@ img {
 .project-intro {
   padding-top: 50px;
 }
+
+h1 {
+  color: #0E1F4F;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  /*width: 375px;*/
+  text-align: center;
+  margin-top: 4rem;
+  background-image: url(/images/portfolio-rectangle.png);
+  background-repeat: no-repeat;
+  background-size: 23% 40%;
+  background-position: bottom;
+
+}
+.cloudful {
+  width: 100%;
+  display: inherit;
+  margin-left: 6rem;
+}
+
+
+/** Responsive**/
+@media screen and (min-width: 42rem) {
+
+  /*top hero section*/
+  .container {
+    margin: 0 auto%;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .container {
+    *margin: 0 10%;
+    width: 80%;
+  }
+}
