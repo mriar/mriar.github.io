@@ -10,6 +10,7 @@ img {
   margin: 0 auto;
   width: 100%;
 }
+
 /** CSS Grid Setup**/
 .container {
   display: grid;
@@ -44,4 +45,85 @@ img {
   margin: 0 auto;
   overflow: hidden;
   width: 100%;
+}
+
+.project-summary {
+  grid-area: project-summary;
+}
+.header {
+  grid-area: header;
+}
+.project-details-column1 {
+  grid-area: project-details-column1;
+}
+.project-details-column2 {
+  grid-area: project-details-column2;
+}
+.project-details-column3 {
+  grid-area: project-details-column3;
+}
+.problems {
+  grid-area: problems;
+}
+.solution {
+  grid-area: solution;
+}
+.assumptions {
+  grid-area: assumptions;
+}
+.research {
+  grid-area: research;
+}
+.competitive-analysis {
+  grid-area: competitive-analysis;
+}
+.user-persona1 {
+  grid-area: user-persona1;
+}
+.user-persona2 {
+  grid-area: user-persona2;
+}
+.user-stories-flows {
+  grid-area: user-stories-flows;
+}
+.sketches {
+  grid-area: sketches;
+}
+.wireframes {
+  grid-area: wireframes;
+}
+.user-tests1 {
+  grid-area: user-tests1;
+}
+.branding-text {
+  grid-area: branding-text;
+}
+.logo {
+  grid-area: logo;
+}
+.colors {
+  grid-area: colors;
+}
+.fonts {
+  grid-area: fonts;
+}
+.tests2 {
+  grid-area: tests2;
+}
+.iterations {
+  grid-area: iterations;
+}
+.final-product {
+  grid-area: final-product;
+}
+.features {
+  grid-area: features;
+}
+.conclusion {
+  grid-area: conclusion;
+}
+
+/* Project- Intro*/
+.project-intro {
+  padding-top: 50px;
 }
