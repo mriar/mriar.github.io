@@ -3,9 +3,10 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles/reset.css">
-  <link rel="stylesheet" type="text/css" href="styles/hamburger-menu.css">
   <link rel="stylesheet" type="text/css" href="styles/cloudful.css">
+  <link rel="stylesheet" type="text/css" href="styles/hamburger-menu.css">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
@@ -21,7 +22,6 @@
 <body>
 
     <!-- Hamburger Meu -->
-
     <div class="container">
       <header class="header">
         <section class="logo">
@@ -36,11 +36,11 @@
           <li><a href="mailto:mriar@live.com">Contact</a></li>
         </ul>
       </header>
-
   <!-- Case study starts here-->
 
-    <h1>CloudFul</h1>
   <section class="project-intro">
+    <div class="project-summary">
+    <h1>CloudFul</h1>
     <div class="cloudful-prototype">
       <img src="images/cloudful-mockup.png" alt="CloudFul Project Prototype Image">
       <button type="button" name="button">View Prototype</button>
@@ -50,6 +50,7 @@
       <p>Cloud storage is growing in users but space for users is still limited. The goal of CloudFul is to provide increased storage space for personal use. The industry is more focused on business but there is a growing need for personal storage.
       </p>
     </article>
+    </div>
     <div class="project-details-column1">
       <h2>Roles</h2>
       <ul class="list-items">
@@ -196,6 +197,7 @@
 
   <section class="research">
     <h2>Research</h2>
+    </div>
     <div class="survey">
       <h2 class="percentages">50%</h2>
       <p>Organize their files using cloud storage</p>
@@ -228,54 +230,54 @@
       <h2 class="percentages">60%</h2>
       <p>Do not save links, articles, or media content from web<p>
     </div>
-    <article class="competitive-analysis">
-      <h2>Competitive Analysis</h2>
-      <img src="images/competitiveAnalysis.png" alt="Image of Google & Dropbox dashboard screen">
-      <p>Cloud storage is a crowded market with big name brands like Google & Dropbox. These companies offer not enough storage space for users and are targeted to businesses rather than people. There is room for a niche service that provides users
-        with targeted features that help them organize their personal files.</p>
-    </article>
-    <article class="user-persona1">
-      <h2>User Personas</h2>
-      <h4>Brad Smith</h4>
-      <p>22- year-old student from Seattle </p>
-      <img src="images/MalePersona.png" alt="Image of a male persona">
-      <blockquote>
-        “I have a lot of large data files, so I like to back-up all my files to the cloud to make sure they are safe and secure“
-      </blockquote>
-      <h4>Goals</h4>
-      <ul class="personas">
-        <li class="dashed-list">Share files with others.</li>
-        <li class="dashed-list">Create docs, spreadsheets, and notes that I can share with my team.</li>
-        <li class="dashed-list">Upload my files to the cloud for easy storage and access.</li>
-      </ul>
-      <h4>Frusturations</h4>
-      <ul class="personas">
-        <li class="dashed-list">Collaborating with my team on projects is difficult when they have to email back and forth.</li>
-        <li class="dashed-list">Its hard to keep track of my files when all of my devices have different ones.</li>
-      </ul>
-    </article>
-    <article class="user-persona2">
-      <h4>Molly Neal</h4>
-      <p>32-year-old working mom from New York City</p>
-      <img src="images/FemalePersona.png" alt="Image of a female persona">
-      <blockquote>
-        “I take a lot of pics of my daughter and sharing them with family is great!”
-      </blockquote>
-      <h4>Goals</h4>
-      <ul class="personas">
-        <li class="dashed-list">Share links of photos and videos to family & friends.</li>
-        <li class="dashed-list">Organize images & photos into folders.</li>
-        <li class="dashed-list">Backup my files from my phone to my cloud.</li>
-      </ul>
-      <h4>Frusturations</h4>
-      <ul class="personas">
-        <li class="dashed-list">I am running out of space on my phone to store my images & videos.</li>
-        <li class="dashed-list">I have large image & video files that need to be easily shared with friends & family.</li>
-        <li class="dashed-list">Sending images in emails have a limit, why can't I share my whole album?</li>
-        <li class="dashed-list">My photos are in random places, is there a way to organize them into folders or categories?</li>
-      </ul>
-    </article>
   </section>
+  <article class="competitive-analysis">
+    <h2>Competitive Analysis</h2>
+    <img src="images/competitiveAnalysis.png" alt="Image of Google & Dropbox dashboard screen">
+    <p>Cloud storage is a crowded market with big name brands like Google & Dropbox. These companies offer not enough storage space for users and are targeted to businesses rather than people. There is room for a niche service that provides users
+      with targeted features that help them organize their personal files.</p>
+  </article>
+  <article class="user-persona1">
+    <h2>User Personas</h2>
+    <h4>Brad Smith</h4>
+    <p>22- year-old student from Seattle </p>
+    <img src="images/MalePersona.png" alt="Image of a male persona">
+    <blockquote>
+      “I have a lot of large data files, so I like to back-up all my files to the cloud to make sure they are safe and secure“
+    </blockquote>
+    <h4>Goals</h4>
+    <ul class="personas">
+      <li class="dashed-list">Share files with others.</li>
+      <li class="dashed-list">Create docs, spreadsheets, and notes that I can share with my team.</li>
+      <li class="dashed-list">Upload my files to the cloud for easy storage and access.</li>
+    </ul>
+    <h4>Frusturations</h4>
+    <ul class="personas">
+      <li class="dashed-list">Collaborating with my team on projects is difficult when they have to email back and forth.</li>
+      <li class="dashed-list">Its hard to keep track of my files when all of my devices have different ones.</li>
+    </ul>
+  </article>
+  <article class="user-persona2">
+    <h4>Molly Neal</h4>
+    <p>32-year-old working mom from New York City</p>
+    <img src="images/FemalePersona.png" alt="Image of a female persona">
+    <blockquote>
+      “I take a lot of pics of my daughter and sharing them with family is great!”
+    </blockquote>
+    <h4>Goals</h4>
+    <ul class="personas">
+      <li class="dashed-list">Share links of photos and videos to family & friends.</li>
+      <li class="dashed-list">Organize images & photos into folders.</li>
+      <li class="dashed-list">Backup my files from my phone to my cloud.</li>
+    </ul>
+    <h4>Frusturations</h4>
+    <ul class="personas">
+      <li class="dashed-list">I am running out of space on my phone to store my images & videos.</li>
+      <li class="dashed-list">I have large image & video files that need to be easily shared with friends & family.</li>
+      <li class="dashed-list">Sending images in emails have a limit, why can't I share my whole album?</li>
+      <li class="dashed-list">My photos are in random places, is there a way to organize them into folders or categories?</li>
+    </ul>
+  </article>
 
   <!-- Information Architecture starts here-->
   <section class="information-architecture">

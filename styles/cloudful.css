@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+img {
+  margin: 0 auto;
+  width: 100%;
+}
+/** CSS Grid Setup**/
+.container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "project-summary"
+    "project-details-column1"
+    "project-details-column2"
+    "project-details-column3"
+    "problems"
+    "solution"
+    "assumptions"
+    "research"
+    "competitive-analysis"
+    "user-persona1"
+    "user-persona2"
+    "user-stories-flows"
+    "sketches"
+    "wireframes"
+    "user-tests1"
+    "branding-text"
+    "logo"
+    "colors"
+    "fonts"
+    "tests2"
+    "iterations"
+    "final-product"
+    "features"
+    "conclusion";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+}

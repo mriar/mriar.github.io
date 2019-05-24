@@ -136,7 +136,7 @@ a {
 }
 
 /*Ipad Responsive design*/
-@media (min-width: 42rem) {
+@media (min-width: 45rem) {
   .header li {
     float: left;
   }
