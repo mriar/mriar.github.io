@@ -11,6 +11,22 @@ img {
   width: 100%;
 }
 
+h2 {
+  color: #0E1F4F;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+p {
+  margin-top: 1.6rem;
+  color: #0E1F4F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 140%;
+}
 /** CSS Grid Setup**/
 .container {
   display: grid;
@@ -138,19 +154,51 @@ img {
 h1 {
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
+  font-weight: bold;
   font-size: 1.8rem;
   text-align: center;
   margin-top: 4rem;
-  background-image: url(/images/portfolio-rectangle.png);
+  background-image: url(../images/portfolio-rectangle.png);
   background-repeat: no-repeat;
-  background-size: 23% 40%;
+  background-size: 23% 41%;
   background-position: bottom;
-
 }
 .cloudful {
-  width: 100%;
+  width: 80%;
   margin-top: 2rem;
+  display: block;
 }
+
+.view-prototype {
+  background: #FF3E55;
+  color: white;
+  border-radius: .2rem;
+  border-style: none;
+  font-size: 1.2rem;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  height: 2.5rem;
+  margin-left: 12.5rem;
+  margin-right: 12.5rem;
+  margin-top: 1.2rem;
+  padding: 0;
+  width: 13rem;
+}
+
+.summary-text {
+  width: 35rem;
+  text-align: left;
+  margin-left: 1.2rem;
+  padding-bottom: 4rem;
+}
+.specs {
+  background-image: url(../images/yellow-rectangle.png);
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  text-align: center;
+
+}
+
 
 
 
