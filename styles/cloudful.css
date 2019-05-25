@@ -16,6 +16,8 @@ img {
   display: grid;
   grid-template-areas:
     "header"
+    "title"
+    "project"
     "project-summary"
     "project-details-column1"
     "project-details-column2"
@@ -46,7 +48,12 @@ img {
   overflow: hidden;
   width: 100%;
 }
-
+.title {
+  grid-area: title;
+}
+.project {
+  grid-area: project;
+}
 .project-summary {
   grid-area: project-summary;
 }
@@ -132,7 +139,6 @@ h1 {
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
   font-size: 1.8rem;
-  /*width: 375px;*/
   text-align: center;
   margin-top: 4rem;
   background-image: url(/images/portfolio-rectangle.png);
@@ -143,13 +149,13 @@ h1 {
 }
 .cloudful {
   width: 100%;
-  display: inherit;
-  margin-left: 6rem;
+  margin-top: 2rem;
 }
 
 
+
 /** Responsive**/
-@media screen and (min-width: 42rem) {
+@media screen and (min-width: 420px;) {
 
   /*top hero section*/
   .container {
