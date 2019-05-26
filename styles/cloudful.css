@@ -19,14 +19,7 @@ h2 {
   text-align: center;
   margin-top: 4rem;
 }
-p {
-  margin-top: 1.6rem;
-  color: #0E1F4F;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem;
-  font-weight: 400;
-  line-height: 140%;
-}
+
 /** CSS Grid Setup**/
 .container {
   display: grid;
@@ -188,19 +181,199 @@ h1 {
 .summary-text {
   width: 35rem;
   text-align: left;
-  margin-left: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 4rem;
+  margin-top: 1.6rem;
+  color: #0E1F4F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 140%;
 }
+
+/** Roles, Deliverables, & Tools**/
 .specs {
   background-image: url(../images/yellow-rectangle.png);
-  padding-top: 2rem;
+  padding-top: .01rem;
   padding-bottom: 4rem;
   text-align: center;
 
 }
 
+.item {
+  color: #0E1F4F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: normal;
+}
 
+.list-items {
+  margin-top: 1.6rem;
+}
 
+/* Problems , Solution, & Assumption*/
+.list-problems {
+  margin-top: 1.6rem;
+}
+
+.dashed-list {
+  color: #0E1F4F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: normal;
+  width:30rem;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: square;
+}
+.solution-text {
+  color: #0E1F4F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: normal;
+  width:35rem;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.6rem;
+  margin-bottom: 2rem;
+}
+.list-assumptions {
+  margin-top: 1.6rem;
+  margin-bottom: 4rem;
+}
+
+/*Survey results*/
+.survey-section {
+  background-image: url(../images/yellow-rectangle.png);
+  padding-top: .01rem;
+  padding-bottom: 1rem;
+
+}
+.percentages {
+  color: #0E1F4F;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 1.6rem;
+  text-align: center;
+}
+
+.survey-text {
+  color: #0E1F4F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 1.6rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20rem;
+  margin-bottom: 5rem;
+}
+
+/*Competitive Analysis*/
+.google-dropbox {
+  margin-top: 2rem;
+}
+.analysis-text {
+  color: #0E1F4F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: normal;
+  width:35rem;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.6rem;
+}
+
+/*User Personas*/
+h4 {
+  margin-top: 2rem;
+  color: #0E1F4F;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.user-persona1 {
+  margin-top: 1.6rem;
+  border: solid;
+  border-color: #F8C504;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 4rem;
+}
+.persona-text {
+  color: #0E1F4F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:.2rem;
+  margin-bottom: 2rem;
+}
+.personas {
+  margin-top: 1.6rem;
+}
+
+.user-persona2 {
+  margin-top: 2rem;
+  border: solid;
+  border-color: #F8C504;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 4rem;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+blockquote{
+  font-size: 1.6em;
+  width:100%;
+  margin:20px auto;
+  font-family:'Playfair Display',serif;
+  font-style:italic;
+  color: #0E1F4F;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #0E1F4F ;
+  line-height:1.6;
+  position: relative;
+  background:#F8C504;
+}
+
+blockquote::before{
+  font-family:'Playfair Display',serif;
+  content: "\201C";
+  color:#0E1F4F;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
+
+/*User Stories & Flows*/
 
 /** Responsive**/
 @media screen and (min-width: 420px;) {
