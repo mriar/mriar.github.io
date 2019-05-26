@@ -198,7 +198,6 @@ h1 {
   padding-top: .01rem;
   padding-bottom: 4rem;
   text-align: center;
-
 }
 
 .item {
@@ -270,7 +269,7 @@ h1 {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: normal;
-  margin-top: 1.6rem;
+  margin-top: 1.2rem;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -374,7 +373,28 @@ blockquote span{
 }
 
 /*User Stories & Flows*/
-
+.user-stories-text {
+  margin-top: 1.6rem;
+  color: #0E1F4F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: normal;
+  width:32rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+.user-stories {
+  background-image: url(../images/yellow-rectangle.png);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.item {
+  margin-left: auto;
+  margin-right: auto;
+  width: 34rem;
+}
 /** Responsive**/
 @media screen and (min-width: 420px;) {
 
