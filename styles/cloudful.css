@@ -174,7 +174,6 @@ h1 {
   margin-left: 12.5rem;
   margin-right: 12.5rem;
   margin-top: 1.2rem;
-  padding: 0;
   width: 13rem;
 }
 
@@ -335,6 +334,7 @@ h4 {
   padding-right: 3rem;
   padding-bottom: 4rem;
 }
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
 blockquote{
   font-size: 1.6em;
@@ -395,6 +395,26 @@ blockquote span{
   margin-right: auto;
   width: 34rem;
 }
+/*figure out button*/
+.view-user-stories {
+  background: #FF3E55;
+  color: white;
+  border-radius: .2rem;
+  border-style: none;
+  font-size: 1.2rem;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  height: 2.5rem;
+  margin-left: 12.5rem;
+  margin-right: 12.5rem;
+  margin-top: 1.2rem;
+  align-items: center;
+  width: 13rem;
+}
+
+
+
+
 /** Responsive**/
 @media screen and (min-width: 420px;) {
 
