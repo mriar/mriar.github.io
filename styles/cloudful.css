@@ -24,7 +24,7 @@ h2 {
 .container {
   display: grid;
   grid-template-areas:
-    "header"
+
     "title"
     "project"
     "project-summary"
@@ -69,10 +69,6 @@ h2 {
 
 .project-summary {
   grid-area: project-summary;
-}
-
-.header {
-  grid-area: header;
 }
 
 .project-details-column1 {

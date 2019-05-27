@@ -15,7 +15,6 @@ img {
 .container {
   display: grid;
   grid-template-areas:
-    "header"
     "portfolio-intro"
     "projects"
     "footer";
@@ -24,10 +23,6 @@ img {
   margin: 0 auto;
   overflow: hidden;
   width: 100%;
-}
-
-.header {
-  grid-area: header;
 }
 
 .portfolio-intro {
@@ -48,7 +43,7 @@ img {
   display: flex;
   flex-direction: row-reverse;
   float: right;
-  height: 22rem;
+  height: 23rem;
   justify-content: space-between;
   padding-top: 50px;
   width: 100%;
@@ -74,7 +69,7 @@ img {
   font-weight: normal;
   left: 150px;
   line-height: 130%;
-  padding-bottom: .8rem;
+  padding-bottom: 1.2rem;
   padding-top: .6rem;
   top: 90px;
   width: 19rem;
@@ -140,9 +135,9 @@ img {
 h2 {
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 700;
-  padding-bottom: 1rem;
+  padding-bottom: 1.6rem;
   padding-left: 2rem;
 }
 
@@ -166,7 +161,7 @@ h2 {
   height: 2.5rem;
   margin-bottom: 10rem;
   margin-left: 2rem;
-  margin-top: 1rem;
+  margin-top: 1.2rem;
   padding: 0;
   width: 10rem;
 }

@@ -24,22 +24,180 @@ h2 {
 .container {
   display: grid;
   grid-template-areas:
-    "header"
-    "about-hero"
+
+    "about"
     "about-title"
     "discovering-design"
     "design-motivation"
     "choosing-design"
     "meeting-dad-pics"
     "passionate"
-    "avid-learner"
-    "team-player"
-    "adventure"
-    "footer"
-    
+    "avid-learner-intro"
+    "wakeboarding"
+    "scuba"
+    "surf"
+    "team-player-intro"
+    "manpreet-boat"
+    "manpreet-eggtoss"
+    "adventure-intro"
+    "china-image"
+    "TajMahal-image"
+    "venice-image"
+    "pisa-image"
+    "paris-image"
+    "footer";
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   margin: 0 auto;
   overflow: hidden;
   width: 100%;
+}
+
+.about {
+  grid-area: about;
+}
+
+.about-title {
+  grid-area: about-title;
+}
+
+.discovering-design {
+  grid-area: discovering-design;
+}
+
+.design-motivation {
+  grid-area: design-motivation;
+}
+
+.choosing-design {
+  grid-area: choosing-design;
+}
+
+.meeting-dad-pics {
+  grid-area: meeting-dad-pics;
+}
+
+.passionate {
+  grid-area: passionate;
+}
+
+.avid-learner-intro {
+  grid-area: avid-learner-intro;
+}
+
+.wakeboarding {
+  grid-area: wakeboarding;
+}
+
+.scuba {
+  grid-area: scuba ;
+}
+
+.surf {
+  grid-area: surf;
+}
+
+.team-player-intro {
+  grid-area: team-player-intro;
+}
+
+.manpreet-boat {
+  grid-area: manpreet-boat;
+}
+
+.manpreet-eggtoss {
+  grid-area: manpreet-eggtoss;
+}
+
+.adventure-intro {
+  grid-area: adventure-intro;
+}
+
+.china-image {
+  grid-area:china-image;
+}
+
+.TajMahal-image {
+  grid-area: TajMahal-image;
+}
+
+.venice-image {
+  grid-area: venice-image;
+}
+
+.pisa-image {
+  grid-area: pisa-image;
+}
+
+.paris-image {
+  grid-area: paris-image;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+/* About Hero section*/
+.about {
+  background-image: url(../images/heroimage2.png);
+  display: flex;
+  float: right;
+  height: 27.5rem;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 50px;
+}
+.about-image {
+  display: inline;
+  float: left;
+  height: 100%;
+  width: 15rem;
+}
+
+.about-text {
+  padding-right: .5rem;
+  padding-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-summary {
+  color: #0E1F4F;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 130%;
+  padding-bottom: 1.2rem;
+  padding-top: .6rem;
+  top: 90px;
+  width: 19rem;
+}
+
+.meet-me {
+  background: #FF3E55;
+  border-radius: .2rem;
+  border-style: none;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 2.5rem;
+  padding: 0;
+  width: 15rem;
+}
+
+h1 {
+  color: #0E1F4F;
+  display: inline;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: bold;
+  height: 20px;
+  left: 150px;
+  line-height: 100%;
+  padding-right: 2rem;
+  top: 65px;
+  width: 188.89px;
 }
