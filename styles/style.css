@@ -44,7 +44,7 @@ img {
 
 /** Hero image Section**/
 .portfolio-intro {
-  background-image: url(../images/heroimage2.png);
+  background-image: url(/images/heroimage2.png);
   display: flex;
   flex-direction: row-reverse;
   float: right;
