@@ -24,7 +24,6 @@ h2 {
 .container {
   display: grid;
   grid-template-areas:
-
     "about"
     "about-title"
     "discovering-design"
@@ -86,12 +85,13 @@ h2 {
 }
 
 .scuba {
-  grid-area: scuba ;
+  grid-area: scuba;
 }
 
 .surf {
   grid-area: surf;
 }
+
 .snowboard {
   grid-area: snowboard;
 }
@@ -113,7 +113,7 @@ h2 {
 }
 
 .china-image {
-  grid-area:china-image;
+  grid-area: china-image;
 }
 
 .TajMahal-image {
@@ -143,9 +143,10 @@ h2 {
   float: right;
   height: 27.5rem;
   justify-content: space-between;
-  width: 100%;
   padding-top: 50px;
+  width: 100%;
 }
+
 .about-image {
   display: inline;
   float: left;
@@ -154,10 +155,10 @@ h2 {
 }
 
 .about-text {
-  padding-right: .5rem;
-  padding-top: 2rem;
   margin-left: auto;
   margin-right: auto;
+  padding-right: .5rem;
+  padding-top: 2rem;
 }
 
 .about-summary {
@@ -200,6 +201,7 @@ h1 {
   top: 65px;
   width: 188.89px;
 }
+
 /* My story section*/
 .about-title {
   background-image: url(../images/portfolio-rectangle.png);
@@ -213,6 +215,7 @@ h1 {
   margin-top: 4rem;
   text-align: center;
 }
+
 .discovering-design {
   padding-top: 4rem;
 }
@@ -221,10 +224,11 @@ h3 {
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
   font-size: 1.6rem;
-  text-align: left;
+  font-weight: bold;
   margin-bottom: 1.6rem;
   margin-left: auto;
   margin-right: auto;
+  text-align: left;
   width: 32rem;
 }
 
@@ -233,12 +237,13 @@ h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   font-weight: lighter;
-  line-height: normal;
+  line-height: 150%;
+  margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2rem;
   width: 32rem;
 }
+
 .discovering-design {
   margin-bottom: 4rem;
 }
@@ -248,105 +253,124 @@ h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   font-weight: lighter;
-  line-height: normal;
+  line-height: 150%;
+  margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2rem;
   width: 32rem;
 }
+
 .design-motivation {
   margin-bottom: 4rem;
 }
+
 .choosing-design-text {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   font-weight: lighter;
-  line-height: normal;
+  line-height: 150%;
+  margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2rem;
   width: 32rem;
 }
+
 .choosing-design-text {
   margin-bottom: 2rem;
 }
+
 .meeting-dad-pics {
   margin-bottom: 4rem;
 }
+
 .golden-temple {
   margin-bottom: 2rem;
 }
-/*Avid Learner Section*/
 
+/*Avid Learner Section*/
 .avid-learner-text {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   font-weight: lighter;
-  line-height: normal;
+  line-height: 150%;
+  margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2rem;
   width: 32rem;
 }
+
 .wakeboarding {
   margin-bottom: 2rem;
 }
+
 .scuba {
   margin-bottom: 2rem;
 }
+
 .surf {
   margin-bottom: 2rem;
 }
+
 .snowboard {
   margin-bottom: 4rem;
 }
+
 /*Team Player section*/
 .team-player-text {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   font-weight: lighter;
-  line-height: normal;
+  line-height: 150%;
+  margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2rem;
   width: 32rem;
 }
+
 .manpreet-boat {
   margin-bottom: 2rem;
 }
+
 .manpreet-eggtoss {
   margin-bottom: 4rem;
 }
+
 /*Adventure Section*/
 .adventure-text {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   font-weight: lighter;
-  line-height: normal;
+  line-height: 150%;
+  margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2rem;
   width: 32rem;
 }
+
 .china-image {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
+
 .TajMahal-image {
   margin-bottom: 2rem;
 }
+
 .venice-image {
   margin-bottom: 2rem;
 }
+
 .pisa-image {
   margin-bottom: 2rem;
 }
+
 .paris-image {
   margin-bottom: 4rem;
 }
+
 /*Footer*/
 .footer {
   background-image: url(/images/heroimage2.png);

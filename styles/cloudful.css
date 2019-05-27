@@ -24,7 +24,6 @@ h2 {
 .container {
   display: grid;
   grid-template-areas:
-
     "title"
     "project"
     "project-summary"
@@ -210,8 +209,8 @@ h1 {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  font-weight: 400;
-  line-height: 140%;
+  font-weight: lighter;
+  line-height: 150%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1.6rem;
@@ -232,8 +231,8 @@ h1 {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: lighter;
+  line-height: 150%;
 }
 
 .list-items {
@@ -249,8 +248,8 @@ h1 {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: lighter;
+  line-height: 150%;
   list-style: square;
   margin-left: auto;
   margin-right: auto;
@@ -262,8 +261,8 @@ h1 {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: lighter;
+  line-height: 150%;
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
@@ -297,8 +296,8 @@ h1 {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: lighter;
+  line-height: 150%;
   margin-bottom: 5rem;
   margin-left: auto;
   margin-right: auto;
@@ -316,8 +315,8 @@ h1 {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: lighter;
+  line-height: 150%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1.6rem;
@@ -358,7 +357,7 @@ h5 {
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
-  line-height: normal;
+  line-height: 150%;
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
@@ -422,8 +421,8 @@ blockquote span {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: lighter;
+  line-height: 150%;
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
@@ -481,8 +480,8 @@ blockquote span {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: lighter;
+  line-height: 150%;
   margin-bottom: 1.2rem;
   margin-left: auto;
   margin-right: auto;
@@ -495,8 +494,8 @@ blockquote span {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: lighter;
+  line-height: 150%;
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
@@ -525,8 +524,8 @@ blockquote span {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: lighter;
+  line-height: 150%;
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
@@ -574,8 +573,8 @@ blockquote span {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: lighter;
+  line-height: 150%;
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
@@ -588,8 +587,8 @@ blockquote span {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: lighter;
+  line-height: 150%;
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
@@ -606,8 +605,8 @@ blockquote span {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: lighter;
+  line-height: 150%;
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
@@ -640,8 +639,8 @@ blockquote span {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: lighter;
+  line-height: 150%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1.6rem;
@@ -653,8 +652,8 @@ blockquote span {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: lighter;
+  line-height: 150%;
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
@@ -667,7 +666,7 @@ blockquote span {
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   font-weight: lighter;
-  line-height: normal;
+  line-height: 150%;
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
@@ -696,8 +695,8 @@ blockquote span {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: lighter;
+  line-height: 150%;
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
@@ -742,8 +741,8 @@ blockquote span {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: lighter;
+  line-height: 150%;
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
@@ -777,7 +776,7 @@ blockquote span {
   font-family: 'Playfair Display', serif;
   font-size: 1.6rem;
   font-weight: bold;
-  line-height: normal;
+  line-height: 150%;
   margin-left: auto;
   margin-right: auto;
   width: 32rem;
@@ -787,8 +786,8 @@ blockquote span {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: lighter;
+  line-height: 150%;
   margin-bottom: 4rem;
   margin-left: auto;
   margin-right: auto;
@@ -801,9 +800,10 @@ blockquote span {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: lighter;
+  line-height: 150%;
   margin-bottom: 2rem;
+  margin-bottom: 4rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1.6rem;
