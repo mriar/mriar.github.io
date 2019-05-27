@@ -77,10 +77,6 @@ h2 {
   grid-area: meeting-dad-pics;
 }
 
-.passionate {
-  grid-area: passionate;
-}
-
 .avid-learner-intro {
   grid-area: avid-learner-intro;
 }
@@ -95,6 +91,9 @@ h2 {
 
 .surf {
   grid-area: surf;
+}
+.snowboard {
+  grid-area: snowboard;
 }
 
 .team-player-intro {
@@ -200,4 +199,234 @@ h1 {
   padding-right: 2rem;
   top: 65px;
   width: 188.89px;
+}
+/* My story section*/
+.about-title {
+  background-image: url(../images/portfolio-rectangle.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 23% 41%;
+  color: #0E1F4F;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 4rem;
+  text-align: center;
+}
+.discovering-design {
+  padding-top: 4rem;
+}
+
+h3 {
+  color: #0E1F4F;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+  text-align: left;
+  margin-bottom: 1.6rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 32rem;
+}
+
+.discovering-design-text {
+  color: #0E1F4F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: lighter;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  width: 32rem;
+}
+.discovering-design {
+  margin-bottom: 4rem;
+}
+
+.design-motivation-text {
+  color: #0E1F4F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: lighter;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  width: 32rem;
+}
+.design-motivation {
+  margin-bottom: 4rem;
+}
+.choosing-design-text {
+  color: #0E1F4F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: lighter;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  width: 32rem;
+}
+.choosing-design-text {
+  margin-bottom: 2rem;
+}
+.meeting-dad-pics {
+  margin-bottom: 4rem;
+}
+.golden-temple {
+  margin-bottom: 2rem;
+}
+/*Avid Learner Section*/
+
+.avid-learner-text {
+  color: #0E1F4F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: lighter;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  width: 32rem;
+}
+.wakeboarding {
+  margin-bottom: 2rem;
+}
+.scuba {
+  margin-bottom: 2rem;
+}
+.surf {
+  margin-bottom: 2rem;
+}
+.snowboard {
+  margin-bottom: 4rem;
+}
+/*Team Player section*/
+.team-player-text {
+  color: #0E1F4F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: lighter;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  width: 32rem;
+}
+.manpreet-boat {
+  margin-bottom: 2rem;
+}
+.manpreet-eggtoss {
+  margin-bottom: 4rem;
+}
+/*Adventure Section*/
+.adventure-text {
+  color: #0E1F4F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: lighter;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  width: 32rem;
+}
+.china-image {
+    margin-bottom: 2rem;
+}
+.TajMahal-image {
+  margin-bottom: 2rem;
+}
+.venice-image {
+  margin-bottom: 2rem;
+}
+.pisa-image {
+  margin-bottom: 2rem;
+}
+.paris-image {
+  margin-bottom: 4rem;
+}
+/*Footer*/
+.footer {
+  background-image: url(/images/heroimage2.png);
+  width: 100%;
+}
+
+.footer-title {
+  color: #0E1F4F;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.footer-text {
+  color: #0E1F4F;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+  font-weight: normal;
+  padding-top: .8rem;
+  text-align: center;
+}
+
+.meet-me-footer {
+  background: #FF3E55;
+  border-radius: .2rem;
+  border-style: none;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 2.5rem;
+  margin-left: 12rem;
+  margin-top: 1rem;
+  padding: 0;
+  position: relative;
+  width: 15rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: 2rem;
+  position: relative;
+  text-align: center;
+  width: auto;
+}
+
+.fa-linkedin {
+  color: black;
+  font-size: 3rem;
+}
+
+.fa-github-square {
+  color: black;
+  font-size: 3rem;
+}
+
+.fa-instagram {
+  color: black;
+  font-size: 3rem;
+}
+
+.fa-envelope {
+  color: black;
+  font-size: 3rem;
+}
+
+.fa-behance-square {
+  color: black;
+  font-size: 3rem;
+}
+
+h6 {
+  color: #0E1F4F;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+  font-weight: lighter;
+  padding-bottom: 1rem;
+  text-align: center;
 }

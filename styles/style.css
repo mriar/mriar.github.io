@@ -121,14 +121,14 @@ img {
   font-family: 'Playfair display', serif;
   font-size: 1.8rem;
   font-weight: bold;
-  padding-top: 3rem;
+  padding-top: 4rem;
   text-align: center;
 }
 
 .cloud-storage img {
   display: inherit;
   padding-bottom: 2rem;
-  padding-top: 3rem;
+  padding-top: 4rem;
   width: 80%;
 }
 
@@ -199,11 +199,11 @@ h2 {
   font-size: 1.2rem;
   font-weight: bold;
   height: 2.5rem;
-  left: 14rem;
+  left: 12rem;
   margin-top: 1rem;
   padding: 0;
   position: relative;
-  width: 10rem;
+  width: 15rem;
 }
 
 .icons {
