@@ -74,8 +74,8 @@ img {
   font-weight: normal;
   left: 150px;
   line-height: 130%;
-  padding-top: .6rem;
   padding-bottom: .8rem;
+  padding-top: .6rem;
   top: 90px;
   width: 19rem;
 }
@@ -111,8 +111,8 @@ img {
 .name {
   color: #0E1F4F;
   display: inline;
-  font-style: 'Playfair Display', serif;
   font-size: 1.8rem;
+  font-style: 'Playfair Display', serif;
   font-weight: bold;
 }
 
@@ -157,15 +157,15 @@ h2 {
 
 .read-more {
   background: #FF3E55;
-  color: white;
   border-radius: .2rem;
   border-style: none;
-  font-size: 1.2rem;
+  color: white;
   font-family: 'Roboto Slab', serif;
+  font-size: 1.2rem;
   font-weight: bold;
   height: 2.5rem;
-  margin-left: 2rem;
   margin-bottom: 10rem;
+  margin-left: 2rem;
   margin-top: 1rem;
   padding: 0;
   width: 10rem;
@@ -197,9 +197,9 @@ h2 {
 
 .meet-me {
   background: #FF3E55;
-  color: white;
   border-radius: .2rem;
   border-style: none;
+  color: white;
   font-family: 'Roboto Slab', serif;
   font-size: 1.2rem;
   font-weight: bold;
@@ -397,11 +397,10 @@ h6 {
   }
 }
 
-/** Responsive for Desktop- I will update this in the next responsive checkpoint**/
+/* Responsive for Desktop- I will update this in the next responsive checkpoint*/
 @media screen and (min-width: 1000px) {
   .container {
-    *margin: 0 10%;
+    margin: 0 10%;
     width: 80%;
   }
-
-  **/
+}
