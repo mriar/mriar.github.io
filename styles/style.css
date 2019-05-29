@@ -374,6 +374,10 @@ h6 {
 
   .icons {
     margin: 5rem;
+    width: 50rem;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .fa-linkedin {
@@ -423,8 +427,8 @@ h6 {
   }
 
   .main-text {
-    margin: 0 auto;
     padding-top: 3.5rem;
+    margin-left: 0 auto;
   }
 
   .manpreet {
@@ -432,7 +436,7 @@ h6 {
   }
 
   .slogan {
-    font-size: 3.5rem;
+    font-size: 3rem;
     padding-bottom: .8rem;
     padding-top: 1rem;
     width: 50rem;
@@ -446,19 +450,19 @@ h6 {
   }
 
   .intro-text {
-    font-size: 5rem;
+    font-size: 4rem;
     padding-right: 1rem;
   }
 
   .name {
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
 
   /*Projects*/
   .work {
-    background-size: 12% 20%;
+    background-size: 12% 17%;
     font-size: 5rem;
-    padding-top: 10rem;
+    padding-top: 5rem;
   }
 
   .cloud-storage img {
@@ -517,7 +521,7 @@ h6 {
   }
 
   .icons {
-    margin-top: 5rem;
+    margin-top: 7rem;
   }
 
   .fa-linkedin {
