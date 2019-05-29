@@ -35,6 +35,8 @@ a {
   width: 15%;
 }
 
+
+
 .header ul {
   background-color: #fff;
   list-style: none;
@@ -62,6 +64,7 @@ a {
   padding: 1%;
   text-decoration: none;
 }
+
 
 /* menu */
 .header .menu {
@@ -136,9 +139,9 @@ a {
 }
 
 /*Ipad Responsive design*/
-@media (min-width: 45rem) {
+@media (min-width: 42rem) {
   .header li {
-    float: left;
+    float: right;
   }
 
   .header li a {
@@ -186,6 +189,62 @@ a {
     padding: 4%;
     width: 9%;
   }
+  .mobile-logo {
+    display: none;
+  }
 }
 
-/*Desktop Responsive design coming soon in next checkpoint*/
+/*Desktop Responsive design */
+@media screen and (min-width: 87rem) {
+
+  .header li {
+    float: right;
+  }
+
+  .header li a {
+    padding: 20px 30px;
+  }
+
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+    position: relative;
+    width: 65%;
+  }
+
+  .header .menu-icon {
+    display: none;
+  }
+
+  .header li a:hover,
+  .header .menu-btn:hover {
+    background-color: RGB(248, 197, 4);
+  }
+
+  a {
+    color: #FF3E55;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+
+  /* header */
+  .header {
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+    height: 6.5rem;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+  }
+
+  .logo {
+    width: 6%;
+  }
+  .mobile-logo {
+    display: none;
+  }
+}
+
+}
