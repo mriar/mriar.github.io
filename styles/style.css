@@ -59,6 +59,8 @@ img {
 .main-text {
   padding-right: .5rem;
   padding-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .slogan {
@@ -125,6 +127,10 @@ img {
   text-align: center;
 }
 
+.cloud-storage {
+  margin-left: auto;
+  margin-right: auto;
+}
 .cloud-storage img {
   display: inherit;
   padding-bottom: 2rem;
@@ -181,12 +187,15 @@ h2 {
   text-align: center;
 }
 
-.footer-text {
+.footer-body {
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
   font-size: 1.6rem;
   font-weight: normal;
   padding-top: .8rem;
+  text-align: center;
+}
+.footer-text {
   text-align: center;
 }
 
@@ -204,6 +213,10 @@ h2 {
   padding: 0;
   position: relative;
   width: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  left: auto;
 }
 
 .icons {
@@ -265,7 +278,6 @@ h6 {
   }
 
   .main-text {
-    padding-right: 5px;
     padding-top: 2rem;
   }
 
@@ -277,7 +289,7 @@ h6 {
     font-size: 2.4rem;
     padding-bottom: .8rem;
     padding-top: 1rem;
-    width: 38rem;
+    width: 35rem;
   }
 
   .learn-more {
@@ -313,24 +325,23 @@ h6 {
   h2 {
     font-size: 2rem;
     padding-bottom: 1rem;
-    padding-left: 30rem;
     padding-top: 5rem;
   }
 
   .project-description {
     font-size: 1.8rem;
     line-height: 150%;
-    padding-left: 30rem;
     padding-top: 1rem;
+    width: 75rem;
+    display: block;
   }
 
   .read-more {
     font-size: 1.6rem;
     height: 3rem;
-    margin-left: 2rem;
     margin-top: 2rem;
-    padding: 0;
-    width: 12rem;
+    margin-left: auto;
+    width: 15rem;
   }
 
   .cloud-storage {
@@ -338,24 +349,28 @@ h6 {
   }
 
   /*Footer*/
+
   .footer-title {
     font-size: 2.4rem;
     padding-top: 3rem;
   }
 
-  .footer-text {
+  .footer-body {
     font-size: 2rem;
     padding-top: 1.5rem;
   }
 
+
   .meet-me {
     font-size: 1.6rem;
     height: 3rem;
-    left: 32rem;
     margin-top: 2rem;
     padding: 0;
-    position: relative;
-    width: 14rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15rem;
+    display: inline-block;
+    left: auto;
   }
 
   .icons {
@@ -389,11 +404,13 @@ h6 {
 
   .footer {
     margin-top: 4rem;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
-/* Responsive for Desktop- I will update this in the next responsive checkpoint*/
-@media screen and (min-width: 1000px) {
+/* Responsive for Desktop*/
+@media screen and (min-width: 80rem) {
   .container {
     margin: 0 10%;
     width: 80%;
