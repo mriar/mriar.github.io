@@ -373,7 +373,7 @@ h6 {
   }
 
   .icons {
-    margin: 5rem;
+    margin: 2rem;
     width: 50rem;
     display: flex;
     margin-left: auto;
@@ -443,7 +443,7 @@ h6 {
   }
 
   .learn-more {
-    font-size: 2rem;
+    font-size: 1.8rem;
     height: 4rem;
     margin-top: 2rem;
     width: 25rem;
@@ -486,7 +486,7 @@ h6 {
   }
 
   .read-more {
-    font-size: 2rem;
+    font-size: 1.8rem;
     height: 4rem;
     margin-left: auto;
     margin-top: 2rem;
@@ -510,7 +510,7 @@ h6 {
 
   .meet-me {
     display: inline-block;
-    font-size: 2rem;
+    font-size: 1.8rem;
     height: 4rem;
     left: auto;
     margin-left: auto;
@@ -521,7 +521,7 @@ h6 {
   }
 
   .icons {
-    margin-top: 7rem;
+    margin-top: 2rem;
   }
 
   .fa-linkedin {
