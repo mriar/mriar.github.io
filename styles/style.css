@@ -276,12 +276,11 @@ h6 {
 
   .portfolio-intro {
     height: 30rem;
-    padding-top: 6rem;
   }
 
   .main-text {
-    padding-top: 2rem;
     margin-left: 2rem;
+    padding-top: 2rem;
   }
 
   .manpreet {
@@ -374,11 +373,11 @@ h6 {
   }
 
   .icons {
-    margin: 2rem;
-    width: 50rem;
     display: flex;
+    margin: 2rem;
     margin-left: auto;
     margin-right: auto;
+    width: 50rem;
   }
 
   .fa-linkedin {
@@ -423,14 +422,14 @@ h6 {
   }
 
   .portfolio-intro {
-    height: 40rem;
+    height: 50rem;
     padding-top: 6rem;
   }
 
   .main-text {
-    padding-top: 3.5rem;
+    margin-left: 4rem;
     margin-right: auto;
-    margin-left: 3rem;
+    padding-top: 9.3rem;
     text-align: left;
   }
 
@@ -441,14 +440,14 @@ h6 {
   .slogan {
     font-size: 3rem;
     padding-bottom: .8rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
     width: 50rem;
   }
 
   .learn-more {
     font-size: 1.8rem;
     height: 4rem;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     width: 25rem;
   }
 
