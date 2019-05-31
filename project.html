@@ -45,7 +45,7 @@
         </div>
       </article>
       <article class="project-summary">
-        <h2>Summary</h2>
+        <h2 class="summary-title">Summary</h2>
         <p class="summary-text">Cloud storage is growing in users but space for users is still limited. The goal of CloudFul is to provide increased storage space for personal use. The industry is more focused on business, but there is a growing need
           for personal storage.</p>
       </article>
@@ -135,38 +135,40 @@
           </ul>
         </div>
       </article>
-      <article class="problems">
-        <h2>Problems</h2>
-        <ul class="list-problems">
-          <li class="dashed-list">
-            <p>Sharing large files over email or text is difficult and often fails to send to the receiver.</p>
-          </li>
-          <li class="dashed-list">
-            <p>The organization of files can be stressful with too many files.</p>
-          </li>
-          <li class="dashed-list">
-            <p>It is difficult to share docs for collaboration when you can't connect in real-time for feedback.</p>
-          </li>
-          <li class="dashed-list">
-            <p>Space on desktops and mobile devices is limited.</p>
-          </li>
-        </ul>
-      </article>
-      <article class="solution">
-        <h2>Solution</h2>
-        <p class="solution-text">CloudFul gives you more space for less. It uses industry-standard features to help with your file storage needs.</p>
-        <ul class="list-solution">
-          <li class="dashed-list">
-            <p>Easily upload files & create folders to organize them.</p>
-          </li>
-          <li class="dashed-list">
-            <p>Create your own docs and share them with anyone.</p>
-          </li>
-          <li class="dashed-list">
-            <p>Backup your files from your desktop or mobile device for file security.</p>
-          </li>
-        </ul>
-      </article>
+      <div class="problems-solution-assumptions">
+        <article class="problems">
+          <h2>Problems</h2>
+          <ul class="list-problems">
+            <li class="dashed-list">
+              <p>Sharing large files over email or text is difficult and often fails to send to the receiver.</p>
+            </li>
+            <li class="dashed-list">
+              <p>The organization of files can be stressful with too many files.</p>
+            </li>
+            <li class="dashed-list">
+              <p>It is difficult to share docs for collaboration when you can't connect in real-time for feedback.</p>
+            </li>
+            <li class="dashed-list">
+              <p>Space on desktops and mobile devices is limited.</p>
+            </li>
+          </ul>
+        </article>
+        <article class="solution">
+          <h2>Solution</h2>
+          <p class="solution-text">CloudFul gives you more space for less. It uses industry-standard features to help with your file storage needs.</p>
+          <ul class="list-solution">
+            <li class="dashed-list">
+              <p>Easily upload files & create folders to organize them.</p>
+            </li>
+            <li class="dashed-list">
+              <p>Create your own docs and share them with anyone.</p>
+            </li>
+            <li class="dashed-list">
+              <p>Backup your files from your desktop or mobile device for file security.</p>
+            </li>
+          </ul>
+        </article>
+      </div>
       <article class="assumptions">
         <h2>Assumptions</h2>
         <ul class="list-assumptions">
@@ -247,47 +249,49 @@
     <div class="persona-heading">
       <h2>User Personas</h2>
     </div>
-    <article class="user-persona1">
-      <h5>Brad Smith</h5>
-      <p class="persona-text">22- year-old student from Seattle </p>
-      <img src="images/MalePersona.png" class="male-persona" alt="Image of a male persona">
-      <blockquote>
-        I have a lot of large data files, so I like to back-up all my files to the cloud to make sure they are safe and secure.
-      </blockquote>
-      <h4 class="persona-title">Goals</h4>
-      <ul class="personas">
-        <li class="dashed-list">Share files with others.</li>
-        <li class="dashed-list">Create docs, spreadsheets, and notes that I can share with my team.</li>
-        <li class="dashed-list">Upload my files to the cloud for easy storage and access.</li>
-      </ul>
-      <h4 class="persona-title">Frusturations</h4>
-      <ul class="personas">
-        <li class="dashed-list">Collaborating with my team on projects is difficult when they have to email back and forth.</li>
-        <li class="dashed-list">Its hard to keep track of my files when all of my devices have different ones.</li>
-      </ul>
-    </article>
+    <div class="personas">
+      <article class="user-persona1">
+        <h5>Brad Smith</h5>
+        <p class="persona-text">22- year-old student from Seattle </p>
+        <img src="images/MalePersona.png" class="male-persona" alt="Image of a male persona">
+        <blockquote>
+          I have a lot of large data files, so I like to back-up all my files to the cloud to make sure they are safe and secure.
+        </blockquote>
+        <h4 class="persona-title">Goals</h4>
+        <ul class="personas">
+          <li class="dashed-list">Share files with others.</li>
+          <li class="dashed-list">Create docs, spreadsheets, and notes that I can share with my team.</li>
+          <li class="dashed-list">Upload my files to the cloud for easy storage and access.</li>
+        </ul>
+        <h4 class="persona-title">Frusturations</h4>
+        <ul class="personas">
+          <li class="dashed-list">Collaborating with my team on projects is difficult when they have to email back and forth.</li>
+          <li class="dashed-list">Its hard to keep track of my files when all of my devices have different ones.</li>
+        </ul>
+      </article>
 
-    <article class="user-persona2">
-      <h5>Molly Neal</h5>
-      <p class="persona-text">32-year-old mom from New York City</p>
-      <img src="images/FemalePersona.png" class="female-persona" alt="Image of a female persona">
-      <blockquote>
-        “I take so many pics of my daughter and sharing them with family is great!”
-      </blockquote>
-      <h4 class="persona-title">Goals</h4>
-      <ul class="personas">
-        <li class="dashed-list">Share links of photos and videos to family & friends.</li>
-        <li class="dashed-list">Organize images & photos into folders.</li>
-        <li class="dashed-list">Backup my files from my phone to my cloud.</li>
-      </ul>
-      <h4 class="persona-title">Frusturations</h4>
-      <ul class="personas">
-        <li class="dashed-list">I am running out of space on my phone to store my images & videos.</li>
-        <li class="dashed-list">I have large image & video files that need to be easily shared with friends & family.</li>
-        <li class="dashed-list">Sending images in emails have a limit, why can't I share my whole album?</li>
-        <li class="dashed-list">My photos are in random places, is there a way to organize them into folders or categories?</li>
-      </ul>
-    </article>
+      <article class="user-persona2">
+        <h5>Molly Neal</h5>
+        <p class="persona-text">32-year-old mom from New York City</p>
+        <img src="images/FemalePersona.png" class="female-persona" alt="Image of a female persona">
+        <blockquote>
+          “I take so many pics of my daughter and sharing them with family is great!”
+        </blockquote>
+        <h4 class="persona-title">Goals</h4>
+        <ul class="personas">
+          <li class="dashed-list">Share links of photos and videos to family & friends.</li>
+          <li class="dashed-list">Organize images & photos into folders.</li>
+          <li class="dashed-list">Backup my files from my phone to my cloud.</li>
+        </ul>
+        <h4 class="persona-title">Frusturations</h4>
+        <ul class="personas">
+          <li class="dashed-list">I am running out of space on my phone to store my images & videos.</li>
+          <li class="dashed-list">I have large image & video files that need to be easily shared with friends & family.</li>
+          <li class="dashed-list">Sending images in emails have a limit, why can't I share my whole album?</li>
+          <li class="dashed-list">My photos are in random places, is there a way to organize them into folders or categories?</li>
+        </ul>
+      </article>
+    </div>
 
     <!-- Information Architecture starts here-->
     <section class="information-architecture">
@@ -305,7 +309,6 @@
         <button onclick="window.location.href = 'https://docs.google.com/spreadsheets/d/1uZ6T32xXKpgJ7qQ4wzLa0hqikt5orc04uGn7GW1AA8w/edit?usp=sharing';" class="view-user-stories" name="button">View User Stories</button>
         <img src="images/userflows.png" class="user-flow-image" alt="Image of user flows">
         <button onclick="window.location.href = 'https://drive.google.com/file/d/1QY1IMgAMcOT8UYdXXpDwVeM7BdIgVlaG/view?usp=sharing';" class="view-user-flows" name="button">View User Flows</button>
-
       </article>
       <article class="sketches">
         <h2>Sketches</h2>
@@ -323,7 +326,7 @@
       <article class="wireframes">
         <h2>Wireframes</h2>
         <p class="wireframe-text">I used Adobe XD to develop low-fidelity clickable wireframes.</p>
-        <img src="images/wireframe.png" alt="Wireframes">
+        <img src="images/wireframe.png" class="wireframe-image" alt="Wireframes">
         <button onclick="window.location.href = 'https://xd.adobe.com/view/a4fec418-e0d5-4146-4a38-ca87cc193577-d2cf/';" class="view-wireframes" name="button">View Wireframes</button>
       </article>
     </section>
@@ -389,7 +392,7 @@
         <p class="labels">81% of users found the left sidebar more accessible.</p>
         <div class="test-images-2">
           <img src="images/right-sidebar.png" class="test-image-3" alt="Image of right sidebar view">
-          <img src="images/left-sidebar.png" alt="Image of left sidebar view">
+          <img src="images/left-sidebar.png" class="test-image-4" alt="Image of left sidebar view">
         </div>
       </article>
       <article class="user-tests2">
@@ -454,9 +457,11 @@
     <!-- Footer with social links & schedule a meeting button-->
     <div class="footer">
       <footer>
-        <p class="footer-title">Wanna Learn More?</p>
-        <p class="footer-text">Lets schedule a coffee or phone meeting!</p>
-        <button onclick="window.location.href = 'https://calendly.com/mriar';" class="meet-me">Meet with Me</button>
+        <section class="footer-text">
+          <p class="footer-title">Wanna Learn More?</p>
+          <p class="footer-body">Lets schedule a coffee or phone meeting!</p>
+          <button onclick="window.location.href = 'https://calendly.com/mriar';" class="meet-me">Meet with Me</button>
+        </section>
         <ul class="icons">
           <li>
             <a href="https://www.linkedin.com/in/manpreetriar/"><i class="fab fa-linkedin"></i>
