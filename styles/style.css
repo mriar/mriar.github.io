@@ -170,7 +170,7 @@ h2 {
   margin-left: 2rem;
   margin-top: 1.2rem;
   padding: 0;
-  width: 10rem;
+  width: 13rem;
 }
 
 /**Footer**/
@@ -314,7 +314,7 @@ h6 {
   .work {
     background-size: 10% 20%;
     font-size: 2.4rem;
-    padding-top: 4rem;
+    padding-top: 3.5rem;
   }
 
   .cloud-storage img {
@@ -429,7 +429,9 @@ h6 {
   .main-text {
     margin-left: 4rem;
     margin-right: auto;
-    padding-top: 9.3rem;
+    padding-top: 0rem;
+    margin-top: auto;
+    margin-bottom: auto;
     text-align: left;
   }
 
@@ -438,7 +440,7 @@ h6 {
   }
 
   .slogan {
-    font-size: 3rem;
+    font-size: 4rem;
     padding-bottom: .8rem;
     padding-top: 2rem;
     width: 50rem;
@@ -452,12 +454,12 @@ h6 {
   }
 
   .intro-text {
-    font-size: 4rem;
+    font-size: 5rem;
     padding-right: 1rem;
   }
 
   .name {
-    font-size: 4.5rem;
+    font-size: 5rem;
   }
 
   /*Projects*/
@@ -470,7 +472,7 @@ h6 {
   .cloud-storage img {
     float: left;
     padding-bottom: 5rem;
-    width: 40%;
+    width: 30%;
   }
 
   h2 {

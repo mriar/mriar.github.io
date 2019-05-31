@@ -20,120 +20,10 @@ h2 {
   text-align: center;
 }
 
-/** CSS Grid Setup**/
 .container {
-  display: grid;
-  grid-template-areas:
-    "about"
-    "about-title"
-    "discovering-design"
-    "design-motivation"
-    "choosing-design"
-    "meeting-dad-pics"
-    "passionate"
-    "avid-learner-intro"
-    "wakeboarding"
-    "scuba"
-    "surf"
-    "team-player-intro"
-    "manpreet-boat"
-    "manpreet-eggtoss"
-    "adventure-intro"
-    "china-image"
-    "TajMahal-image"
-    "venice-image"
-    "pisa-image"
-    "paris-image"
-    "footer";
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
   margin: 0 auto;
   overflow: hidden;
   width: 100%;
-}
-
-.about {
-  grid-area: about;
-}
-
-.about-title {
-  grid-area: about-title;
-}
-
-.discovering-design {
-  grid-area: discovering-design;
-}
-
-.design-motivation {
-  grid-area: design-motivation;
-}
-
-.choosing-design {
-  grid-area: choosing-design;
-}
-
-.meeting-dad-pics {
-  grid-area: meeting-dad-pics;
-}
-
-.avid-learner-intro {
-  grid-area: avid-learner-intro;
-}
-
-.wakeboarding {
-  grid-area: wakeboarding;
-}
-
-.scuba {
-  grid-area: scuba;
-}
-
-.surf {
-  grid-area: surf;
-}
-
-.snowboard {
-  grid-area: snowboard;
-}
-
-.team-player-intro {
-  grid-area: team-player-intro;
-}
-
-.manpreet-boat {
-  grid-area: manpreet-boat;
-}
-
-.manpreet-eggtoss {
-  grid-area: manpreet-eggtoss;
-}
-
-.adventure-intro {
-  grid-area: adventure-intro;
-}
-
-.china-image {
-  grid-area: china-image;
-}
-
-.TajMahal-image {
-  grid-area: TajMahal-image;
-}
-
-.venice-image {
-  grid-area: venice-image;
-}
-
-.pisa-image {
-  grid-area: pisa-image;
-}
-
-.paris-image {
-  grid-area: paris-image;
-}
-
-.footer {
-  grid-area: footer;
 }
 
 /* About Hero section*/
@@ -212,7 +102,7 @@ h1 {
   font-family: 'Playfair Display', serif;
   font-size: 1.8rem;
   font-weight: bold;
-  margin-top: 4rem;
+  margin-top: 30rem;
   text-align: center;
 }
 
@@ -355,10 +245,6 @@ h3 {
   margin-bottom: 2rem;
 }
 
-.TajMahal-image {
-  margin-bottom: 2rem;
-}
-
 .venice-image {
   margin-bottom: 2rem;
 }
@@ -371,9 +257,9 @@ h3 {
   margin-bottom: 4rem;
 }
 
-/*Footer*/
+/**Footer**/
 .footer {
-  background-image: url(/images/heroimage2.png);
+  background-image: url(../images/heroimage2.png);
   width: 100%;
 }
 
@@ -386,7 +272,7 @@ h3 {
   text-align: center;
 }
 
-.footer-text {
+.footer-body {
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
   font-size: 1.6rem;
@@ -395,16 +281,24 @@ h3 {
   text-align: center;
 }
 
-.meet-me-footer {
+.footer-text {
+  text-align: center;
+}
+
+.meet-me {
   background: #FF3E55;
   border-radius: .2rem;
   border-style: none;
   color: white;
+  display: inline-block;
   font-family: 'Roboto Slab', serif;
   font-size: 1.2rem;
   font-weight: bold;
   height: 2.5rem;
-  margin-left: 12rem;
+  left: 12rem;
+  left: auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 1rem;
   padding: 0;
   position: relative;
@@ -453,4 +347,494 @@ h6 {
   font-weight: lighter;
   padding-bottom: 1rem;
   text-align: center;
+}
+
+/*Responsive for Ipad*/
+@media screen and (min-width: 42rem) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  /* About Hero section*/
+  .about {
+    height: 35rem;
+  }
+
+  .about-image {
+    width: 20rem;
+  }
+
+  .about-text {
+    margin-left: 2rem;
+    margin-right: auto;
+    margin-top: 4rem;
+  }
+
+  .about-summary {
+    font-size: 2.4rem;
+    line-height: 140%;
+    padding-bottom: .1rem;
+    padding-top: .5rem;
+    width: 45rem;
+  }
+
+  /* My story section*/
+  h2 {
+    font-size: 2.4rem;
+    margin-top: 0rem;
+  }
+
+  .about-title {
+    background-size: 15% 42%;
+    color: #0E1F4F;
+    margin-top: 40rem;
+  }
+
+  .discovering-design {
+    padding-top: 5rem;
+  }
+
+  h3 {
+    color: #0E1F4F;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+    width: 45rem;
+  }
+
+  .discovering-design-text {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    width: 45rem;
+  }
+
+  .discovering-design {
+    margin-bottom: 5rem;
+  }
+
+  .design-motivation-text {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    width: 45rem;
+  }
+
+  .design-motivation {
+    margin-bottom: 1rem;
+  }
+
+  .choosing-design-text {
+    font-size: 1.8rem;
+    width: 45rem;
+  }
+
+  .choosing-design-text {
+    margin-bottom: 4rem;
+  }
+
+  .golden-temple {
+    display: flex;
+    margin-bottom: 8rem;
+    width: 80%;
+  }
+
+  /*Avid Learner Section*/
+  .avid-learner-text {
+    font-size: 1.8rem;
+    width: 45rem;
+  }
+
+  .wakeboarding {
+    margin-bottom: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .scuba {
+    margin-bottom: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: auto;
+    max-height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .surf {
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
+    object-fit: cover;
+    width: 80%;
+    width: 100%;
+  }
+
+  .snowboard {
+    margin-bottom: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
+    object-fit: cover;
+    width: 118.5%;
+  }
+
+  .learner-pics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 40%;
+    height: 100%;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    overflow: hidden;
+  }
+
+  /*Team Player section*/
+  .team-player-text {
+    font-size: 1.8rem;
+    width: 45rem;
+  }
+
+  .team-pics {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 40%;
+    height: 100%;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    overflow: hidden;
+  }
+
+  .manpreet-boat {
+    margin-bottom: 2rem;
+  }
+
+  .manpreet-eggtoss {
+    margin-bottom: 4rem;
+  }
+
+  /*Adventure Section*/
+  .adventure-text {
+    font-size: 1.8rem;
+    width: 45rem;
+  }
+
+  .adventure-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 40%;
+    height: 100%;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    overflow: hidden;
+  }
+
+  .china-image {
+    margin-bottom: 2rem;
+  }
+
+  .venice-image {
+    margin-bottom: 2rem;
+  }
+
+  .pisa-image {
+    margin-bottom: 2rem;
+    width: 106.5%;
+  }
+
+  .paris-image {
+    margin-bottom: 4rem;
+    width: 100%;
+  }
+
+  /*Footer*/
+  .footer-title {
+    font-size: 2.4rem;
+    padding-top: 4rem;
+  }
+
+  .footer-body {
+    font-size: 2rem;
+    padding-top: 1.5rem;
+  }
+
+  .meet-me {
+    display: inline-block;
+    font-size: 1.6rem;
+    height: 3rem;
+    left: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    padding: 0;
+    width: 15rem;
+  }
+
+  .icons {
+    display: flex;
+    margin: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50rem;
+  }
+
+  .fa-linkedin {
+    font-size: 4rem;
+  }
+
+  .fa-github-square {
+    font-size: 4rem;
+  }
+
+  .fa-instagram {
+    font-size: 4rem;
+  }
+
+  .fa-envelope {
+    font-size: 4rem;
+  }
+
+  .fa-behance-square {
+    font-size: 4rem;
+  }
+
+  h6 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .footer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+  }
+}
+
+/* Responsive for Desktop*/
+@media screen and (min-width: 87rem) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  /* About Hero section*/
+  .about {
+    height: 57.5rem;
+  }
+
+  .about-image {
+    width: 35rem;
+  }
+
+  .about-text {
+    margin-bottom: auto;
+    margin-left: 4rem;
+    margin-top: auto;
+  }
+
+  .about-summary {
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    width: 60rem;
+  }
+
+  /* My story section*/
+  h2 {
+    font-size: 4rem;
+    margin-top: 0rem;
+  }
+
+  .about-title {
+    background-size: 13.5% 42%;
+    margin-top: 65rem;
+  }
+
+  .design-article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 65%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .discovering-design {
+    padding-top: 5rem;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+    width: 55rem;
+  }
+
+  .discovering-design-text {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    width: 55rem;
+  }
+
+  .discovering-design {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .design-motivation-text {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    width: 55rem;
+  }
+
+  .design-motivation {
+    margin-top: 5rem;
+  }
+
+  .choosing-design {
+    margin-top: 1rem;
+  }
+
+  .choosing-design-text {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    width: 55rem;
+  }
+
+  .golden-temple {
+    display: flex;
+    width: 40%;
+  }
+
+  /*Avid Learner Section*/
+  .avid-learner-text {
+    font-size: 2rem;
+    width: 55rem;
+  }
+
+  .learner-pics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 40%;
+    height: 100%;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    overflow: hidden;
+  }
+
+  /*Team Player section*/
+  .team-player-text {
+    font-size: 2rem;
+    width: 55rem;
+  }
+
+  .team-pics {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 40%;
+    height: 100%;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    overflow: hidden;
+  }
+
+  .manpreet-boat {
+    margin-bottom: 2rem;
+  }
+
+  .manpreet-eggtoss {
+    margin-bottom: 4rem;
+  }
+
+  /*Adventure Section*/
+  .adventure-text {
+    font-size: 2rem;
+    width: 55rem;
+  }
+
+  .adventure-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 40%;
+    height: 100%;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    overflow: hidden;
+  }
+
+  .china-image {
+    margin-bottom: 2rem;
+  }
+
+  .venice-image {
+    margin-bottom: 2rem;
+  }
+
+  .pisa-image {
+    margin-bottom: 2rem;
+    width: 106.5%;
+  }
+
+  .paris-image {
+    margin-bottom: 4rem;
+    width: 100%;
+  }
+
+  /*Footer*/
+  .footer-title {
+    font-size: 3rem;
+    padding-top: 4rem;
+  }
+
+  .footer-body {
+    font-size: 2rem;
+    padding-top: 1.8rem;
+  }
+
+  .meet-me {
+    display: inline-block;
+    font-size: 1.8rem;
+    height: 4rem;
+    left: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    padding: 0;
+    width: 20rem;
+  }
+
+  .icons {
+    margin-top: 2rem;
+  }
+
+  .fa-linkedin {
+    font-size: 4rem;
+  }
+
+  .fa-github-square {
+    font-size: 4rem;
+  }
+
+  .fa-instagram {
+    font-size: 4rem;
+  }
+
+  .fa-envelope {
+    font-size: 4rem;
+  }
+
+  .fa-behance-square {
+    font-size: 4rem;
+  }
+
+  h6 {
+    font-size: 2rem;
+  }
+
+  .footer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+  }
 }
