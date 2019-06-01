@@ -13,28 +13,9 @@ img {
 
 /** CSS Grid Setup**/
 .container {
-  display: grid;
-  grid-template-areas:
-    "portfolio-intro"
-    "projects"
-    "footer";
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
   margin: 0 auto;
   overflow: hidden;
   width: 100%;
-}
-
-.portfolio-intro {
-  grid-area: portfolio-intro;
-}
-
-.projects {
-  grid-area: projects;
-}
-
-.footer {
-  grid-area: footer;
 }
 
 /** Hero image Section**/
@@ -53,7 +34,7 @@ img {
   display: inline;
   float: left;
   height: 100%;
-  width: 17rem;
+  width: 15rem;
 }
 
 .main-text {
@@ -118,12 +99,12 @@ img {
   background-image: url(../images/portfolio-rectangle.png);
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 20% 20%;
+  background-size: 15% 3%;
   color: #0E1F4F;
   font-family: 'Playfair display', serif;
   font-size: 1.8rem;
   font-weight: bold;
-  padding-top: 4rem;
+  padding-top: 25rem;
   text-align: center;
 }
 
@@ -312,9 +293,9 @@ h6 {
 
   /*Projects*/
   .work {
-    background-size: 10% 20%;
+    background-size: 10% 2.5%;
     font-size: 2.4rem;
-    padding-top: 3.5rem;
+    padding-top: 36rem;
   }
 
   .cloud-storage img {
@@ -427,11 +408,11 @@ h6 {
   }
 
   .main-text {
+    margin-bottom: auto;
     margin-left: 4rem;
     margin-right: auto;
-    padding-top: 0rem;
     margin-top: auto;
-    margin-bottom: auto;
+    padding-top: 0rem;
     text-align: left;
   }
 
@@ -464,9 +445,9 @@ h6 {
 
   /*Projects*/
   .work {
-    background-size: 9% 17%;
+    background-size: 9% 2.5%;
     font-size: 4rem;
-    padding-top: 5rem;
+    padding-top: 58rem;
   }
 
   .cloud-storage img {
