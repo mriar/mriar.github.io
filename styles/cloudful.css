@@ -151,6 +151,16 @@ h1 {
   margin-top: 1.6rem;
 }
 
+.process {
+  color: #0E1F4F;
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: lighter;
+  margin-top: 5rem;
+  text-align: center;
+}
+
 /*Survey results*/
 .survey-section {
   background-image: url(../images/yellow-rectangle.png);
@@ -903,6 +913,13 @@ h6 {
   .list-assumptions {
     margin-bottom: 5rem;
     margin-top: 2rem;
+  }
+
+  .process {
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-top: 10rem;
+    text-align: center;
   }
 
   /*Survey results*/
