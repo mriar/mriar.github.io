@@ -40,7 +40,7 @@ img {
 .main-text {
   margin-left: auto;
   margin-right: auto;
-  padding-right: .5rem;
+  padding-left: 1rem;
   padding-top: 1rem;
 }
 
@@ -261,7 +261,7 @@ h6 {
 
   .main-text {
     margin-left: 2rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
   }
 
   .manpreet {
@@ -315,7 +315,7 @@ h6 {
     font-size: 1.8rem;
     line-height: 150%;
     padding-top: 1rem;
-    width: 75rem;
+    width: auto;
   }
 
   .view-case-study {
@@ -394,14 +394,152 @@ h6 {
 }
 
 /* Responsive for Desktop*/
-@media screen and (min-width: 87rem) {
+@media screen and (min-device-width: 1200px) {
 
   /*top hero section*/
-  .container {
-    margin: 0 auto%;
+  .portfolio-intro {
+    height: 45rem;
+    padding-top: 5rem;
     width: 100%;
   }
 
+  .main-text {
+    margin-bottom: auto;
+    margin-left: 4rem;
+    margin-right: auto;
+    margin-top: auto;
+    padding-top: 0rem;
+    text-align: left;
+  }
+
+  .manpreet {
+    width: 50rem;
+  }
+
+  .slogan {
+    font-size: 4rem;
+    padding-bottom: .8rem;
+    padding-top: 2rem;
+    width: 50rem;
+  }
+
+  .learn-more {
+    font-size: 1.8rem;
+    height: 4rem;
+    margin-top: 2.5rem;
+    width: 25rem;
+  }
+
+  .intro-text {
+    font-size: 5rem;
+    padding-right: 1rem;
+  }
+
+  .name {
+    font-size: 5rem;
+  }
+
+  /*Projects*/
+  .work {
+    background-size: 9% 2.5%;
+    font-size: 4rem;
+    padding-top: 55rem;
+  }
+
+  .cloud-storage img {
+    float: left;
+    padding-bottom: 5rem;
+    width: 30%;
+  }
+
+  h2 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 5rem;
+  }
+
+  .project-description {
+    display: block;
+    font-size: 2.4rem;
+    line-height: 150%;
+    padding-top: 1.6rem;
+    width: auto;
+  }
+
+  .view-case-study {
+    font-size: 1.8rem;
+    height: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    width: 20rem;
+  }
+
+  .cloud-storage {
+    margin-top: 5rem;
+  }
+
+  /*Footer*/
+  .footer-title {
+    font-size: 3rem;
+    padding-top: 4rem;
+  }
+
+  .footer-body {
+    font-size: 2rem;
+    padding-top: 1.8rem;
+  }
+
+  .meet-me {
+    display: inline-block;
+    font-size: 1.8rem;
+    height: 4rem;
+    left: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    padding: 0;
+    width: 20rem;
+  }
+
+  .icons {
+    margin-top: 2rem;
+  }
+
+  .fa-linkedin {
+    font-size: 4rem;
+  }
+
+  .fa-github-square {
+    font-size: 4rem;
+  }
+
+  .fa-instagram {
+    font-size: 4rem;
+  }
+
+  .fa-envelope {
+    font-size: 4rem;
+  }
+
+  .fa-behance-square {
+    font-size: 4rem;
+  }
+
+  h6 {
+    font-size: 2rem;
+  }
+
+  .footer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (min-width: 87rem) {
+
+  /*top hero section*/
   .portfolio-intro {
     height: 50rem;
     padding-top: 6rem;
@@ -467,13 +605,14 @@ h6 {
     font-size: 2.4rem;
     line-height: 150%;
     padding-top: 1.6rem;
-    width: 130rem;
+    width: auto;
   }
 
   .view-case-study {
     font-size: 1.8rem;
     height: 4rem;
     margin-left: auto;
+    margin-right: auto;
     margin-top: 2rem;
     width: 20rem;
   }
