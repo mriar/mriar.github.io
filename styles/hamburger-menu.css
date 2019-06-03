@@ -160,6 +160,10 @@ a {
     width: 70%;
   }
 
+  .menu {
+    top: 0px;
+  }
+
   .header .menu-icon {
     display: none;
   }
