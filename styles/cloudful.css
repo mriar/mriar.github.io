@@ -128,6 +128,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
+  margin-top: 1.6rem;
   width: 30rem;
 }
 
@@ -1457,6 +1458,7 @@ h6 {
   .dashed-list {
     font-size: 2rem;
     width: 55rem;
+    margin-top: 2rem;
   }
 
   .solution-text {
