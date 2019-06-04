@@ -51,7 +51,7 @@ a {
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: RGB(248, 197, 4);
+  background-color: white;
 }
 
 .header .logo {
@@ -168,8 +168,9 @@ a {
     display: none;
   }
 
+  .header li a:hover,
   .header .menu-btn:hover {
-    background-color: RGB(248, 197, 4);
+    background-color: white;
   }
 
   a {
@@ -231,7 +232,7 @@ a {
 
   .header li a:hover,
   .header .menu-btn:hover {
-    background-color: RGB(248, 197, 4);
+    background-color: white;
   }
 
   a {
