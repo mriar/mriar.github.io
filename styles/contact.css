@@ -1,0 +1,214 @@
+h1 {
+  background-image: url(../images/portfolio-rectangle.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  color: #0E1F4F;
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+body {
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    background-repeat: no-repeat;
+    background-size: 73% 35%;
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  h1 {
+    background-repeat: no-repeat;
+    background-size: 39% 35%;
+    margin-top: 5rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  h1 {
+    background-repeat: no-repeat;
+    background-size: 30% 35%;
+    margin-top: 5rem;
+  }
+}
+
+@media only screen and (min-width: 1220px) {
+  h1 {
+    background-repeat: no-repeat;
+    background-size: 20% 35%;
+    margin-top: 5rem;
+  }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+#feedback-page {
+  text-align: center;
+}
+
+#text-feedback {
+  background-color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  width: 80%;
+}
+
+#form-main {
+  float: left;
+  padding-top: 30px;
+  width: 100%;
+}
+
+#form-div {
+  background-color: #3c3c3c;
+  float: left;
+  left: 50%;
+  margin-left: -260px;
+  padding-bottom: 50px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 35px;
+  position: absolute;
+  width: 450px;
+}
+
+.feedback-input {
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background-color: #fbfbfb;
+  border: 3px solid #fbfbfb;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #0493bd;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 10px;
+  opacity: 0.9;
+  padding: 13px 13px 13px 54px;
+  width: 100%;
+}
+
+.feedback-input:focus {
+  background: #fff;
+  border: 3px solid #F8C504;
+  box-shadow: 0;
+  color: #3498db;
+  outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused {
+  border: #30aed6 solid 3px;
+  color: #30aed6;
+}
+
+/* Icons ---------------------------------- */
+#name {
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+
+#name:focus {
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-position: 8px 5px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+
+#email {
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+
+#email:focus {
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+
+#comment {
+  background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  width: 100%;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+  background-color: white;
+}
+
+#button-blue {
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  background-color: #FF3E55;
+  border: #FF3E55 solid 4px;
+  color: white;
+  cursor: pointer;
+  float: left;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 24px;
+  padding-bottom: 20px;
+  padding-top: 22px;
+  transition: all 0.3s;
+  width: 100%;
+}
+
+#button-blue:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #0E1F4F;
+}
+
+.submit:hover {
+  color: #3498db;
+}
+
+.ease {
+  -moz-transition: .3s ease;
+  -ms-transition: .3s ease;
+  -o-transition: .3s ease;
+  -webkit-transition: .3s ease;
+  background-color: #fbfbfb;
+  border-top: 3px #3c3c3c solid;
+  height: 76px;
+  transition: .3s ease;
+  width: 0px;
+}
+
+.submit:hover .ease {
+  background-color: white;
+  width: 100%;
+}
+
+@media only screen and (max-width: 580px) {
+  #form-div {
+    left: 3%;
+    margin-left: 0;
+    margin-right: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 88%;
+  }
+}
