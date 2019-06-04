@@ -193,6 +193,11 @@ a {
     align-items: center;
     width: 4%;
   }
+
+  .header .logo {
+    margin-left: 5rem;
+    margin-top: 2rem;
+  }
 }
 
 /*Desktop Responsive design */
@@ -241,5 +246,10 @@ a {
 
   .logo {
     width: 4%;
+  }
+
+  .header .logo {
+    margin-left: 10rem;
+    margin-top: 1rem;
   }
 }
