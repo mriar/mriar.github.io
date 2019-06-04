@@ -38,34 +38,35 @@ img {
 
 .main-text {
   margin: auto;
+  margin-left: 2.5rem;
 }
 
 .slogan {
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   font-style: normal;
   font-weight: normal;
-  left: 150px;
   line-height: 130%;
   padding-top: .5rem;
-  top: 90px;
-  width: 24rem;
+  margin-bottom: 2rem;
+
 }
 
 .intro-text {
   color: #0E1F4F;
   display: inline;
   font-family: 'Playfair Display', serif;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   font-style: normal;
   font-weight: normal;
+  margin-right: .6rem;
 }
 
 .name {
   color: #0E1F4F;
   display: inline;
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   font-style: 'Playfair Display', serif;
   font-weight: bold;
 }
@@ -75,10 +76,10 @@ img {
   background-image: url(../images/portfolio-rectangle.png);
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 15% 10%;
+  background-size: 24% 12%;
   color: #0E1F4F;
   font-family: 'Playfair display', serif;
-  font-size: 1.8rem;
+  font-size: 3rem;
   font-weight: bold;
   padding-top: 5rem;
   text-align: center;
@@ -99,7 +100,7 @@ img {
 h2 {
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 700;
   padding-bottom: 1.6rem;
   padding-left: 2rem;
@@ -108,7 +109,7 @@ h2 {
 .project-description {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: lighter;
   line-height: 140%;
   padding-left: 2rem;
@@ -120,15 +121,15 @@ h2 {
   border-style: none;
   color: white;
   font-family: 'Roboto Slab', serif;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: bold;
-  height: 2.5rem;
+  height: 3.5rem;
   margin-bottom: 10rem;
   margin-left: 2rem;
   margin-top: 1.2rem;
   padding: 0;
-  width: 13rem;
-  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.1), 0 2px 10px 0 rgba(0,0,0,0.15);
+  width: 18rem;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1), 0 2px 3px 0 rgba(0,0,0,0.15);
 }
 .view-case-study {
   -webkit-transition-duration: 0.4s; /* Safari */
@@ -152,7 +153,7 @@ h2 {
 .footer-title {
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: bold;
   padding-top: 2rem;
   text-align: center;
@@ -161,7 +162,7 @@ h2 {
 .footer-body {
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: normal;
   padding-top: .8rem;
   text-align: center;
@@ -178,9 +179,9 @@ h2 {
   color: white;
   display: inline-block;
   font-family: 'Roboto Slab', serif;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: bold;
-  height: 2.5rem;
+  height: 3.5rem;
   left: 12rem;
   left: auto;
   margin-left: auto;
@@ -188,9 +189,21 @@ h2 {
   margin-top: 1rem;
   padding: 0;
   position: relative;
-  width: 15rem;
+  width: 18rem;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1), 0 2px 3px 0 rgba(0,0,0,0.15);
+}
+.meet-me {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }
 
+.meet-me:hover {
+  background-color: white;
+  color: #FF3E55;
+  border-style: solid;
+  border-color: #FF3E55;
+  border-width: medium;
+}
 .icons {
   display: flex;
   justify-content: space-evenly;
@@ -255,8 +268,8 @@ h6 {
 
   .slogan {
     font-size: 2.4rem;
-    padding-bottom: .8rem;
-    padding-top: 1rem;
+    padding-bottom: 0rem;
+    padding-top: .5rem;
     width: 35rem;
   }
 
@@ -269,7 +282,8 @@ h6 {
 
   .intro-text {
     font-size: 3rem;
-    padding-right: .5rem;
+    padding-right: 0rem;
+    margin-right: .5rem;
   }
 
   .name {
@@ -278,8 +292,8 @@ h6 {
 
   /*Projects*/
   .work {
-    background-size: 10% 7%;
-    font-size: 2.4rem;
+    background-size: 11% 8%;
+    font-size: 3rem;
     padding-top: 10rem;
   }
 
@@ -383,7 +397,7 @@ h6 {
 
   /*top hero section*/
   .portfolio-intro {
-    height: 50rem;
+    height: 52rem;
     padding-top: 5rem;
     width: 100%;
   }
@@ -403,7 +417,7 @@ h6 {
 
   .slogan {
     font-size: 4.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
     padding-top: .5rem;
     width: 50rem;
   }
@@ -519,7 +533,7 @@ h6 {
 
   /*top hero section*/
   .portfolio-intro {
-    height: 52rem;
+    height: 55rem;
     padding-top: 6rem;
   }
 
