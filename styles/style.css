@@ -93,7 +93,7 @@ img {
   display: inherit;
   padding-bottom: 2rem;
   padding-top: 4rem;
-  width: 80%;
+  width: 90%;
 }
 
 h2 {
@@ -297,7 +297,7 @@ h6 {
   .cloud-storage img {
     float: left;
     padding-bottom: 5rem;
-    width: 36%;
+    width: 40%;
   }
 
   h2 {
@@ -434,11 +434,14 @@ h6 {
     font-size: 4rem;
     padding-top: 10rem;
   }
-
+  .cloud-storage {
+    margin-left: 10rem;
+    margin-right: auto;
+  }
   .cloud-storage img {
     float: left;
     padding-bottom: 5rem;
-    width: 30%;
+    width: 40%;
   }
 
   h2 {
