@@ -48,9 +48,8 @@ img {
   font-style: normal;
   font-weight: normal;
   line-height: 130%;
-  padding-top: .5rem;
   margin-bottom: 2rem;
-
+  padding-top: .5rem;
 }
 
 .intro-text {
@@ -119,6 +118,7 @@ h2 {
   background: #FF3E55;
   border-radius: .2rem;
   border-style: none;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1), 0 2px 3px 0 rgba(0, 0, 0, 0.15);
   color: white;
   font-family: 'Roboto Slab', serif;
   font-size: 1.6rem;
@@ -129,19 +129,20 @@ h2 {
   margin-top: 1.2rem;
   padding: 0;
   width: 18rem;
-  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1), 0 2px 3px 0 rgba(0,0,0,0.15);
 }
+
 .view-case-study {
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
   transition-duration: 0.4s;
 }
 
 .view-case-study:hover {
   background-color: white;
-  color: #FF3E55;
-  border-style: solid;
   border-color: #FF3E55;
+  border-style: solid;
   border-width: medium;
+  color: #FF3E55;
 }
 
 /**Footer**/
@@ -176,6 +177,7 @@ h2 {
   background: #FF3E55;
   border-radius: .2rem;
   border-style: none;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1), 0 2px 3px 0 rgba(0, 0, 0, 0.15);
   color: white;
   display: inline-block;
   font-family: 'Roboto Slab', serif;
@@ -190,20 +192,22 @@ h2 {
   padding: 0;
   position: relative;
   width: 18rem;
-  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1), 0 2px 3px 0 rgba(0,0,0,0.15);
 }
+
 .meet-me {
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
   transition-duration: 0.4s;
 }
 
 .meet-me:hover {
   background-color: white;
-  color: #FF3E55;
-  border-style: solid;
   border-color: #FF3E55;
+  border-style: solid;
   border-width: medium;
+  color: #FF3E55;
 }
+
 .icons {
   display: flex;
   justify-content: space-evenly;
@@ -282,8 +286,8 @@ h6 {
 
   .intro-text {
     font-size: 3rem;
-    padding-right: 0rem;
     margin-right: .5rem;
+    padding-right: 0rem;
   }
 
   .name {
@@ -478,7 +482,7 @@ h6 {
   }
 
   .footer-body {
-    font-size: 2rem;
+    font-size: 2.4rem;
     padding-top: 1.8rem;
   }
 
@@ -610,7 +614,7 @@ h6 {
   }
 
   .footer-body {
-    font-size: 2rem;
+    font-size: 2.4rem;
     padding-top: 1.8rem;
   }
 

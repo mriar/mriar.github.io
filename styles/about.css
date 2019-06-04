@@ -43,14 +43,13 @@ h2 {
   float: left;
   height: 100%;
   width: 18rem;
-
 }
 
 .about-text {
+  margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
-  margin-bottom: auto;
 }
 
 .about-summary {
@@ -63,7 +62,6 @@ h2 {
   padding-top: .6rem;
   width: 32rem;
 }
-
 
 h1 {
   color: #0E1F4F;
@@ -178,8 +176,6 @@ h3 {
   width: 32rem;
 }
 
-
-
 .snowboard {
   margin-bottom: 4rem;
 }
@@ -197,7 +193,6 @@ h3 {
   width: 32rem;
 }
 
-
 .manpreet-eggtoss {
   margin-bottom: 4rem;
 }
@@ -214,7 +209,6 @@ h3 {
   margin-right: auto;
   width: 32rem;
 }
-
 
 .paris-image {
   margin-bottom: 5rem;
@@ -252,6 +246,7 @@ h3 {
   background: #FF3E55;
   border-radius: .2rem;
   border-style: none;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1), 0 2px 3px 0 rgba(0, 0, 0, 0.15);
   color: white;
   display: inline-block;
   font-family: 'Roboto Slab', serif;
@@ -266,20 +261,22 @@ h3 {
   padding: 0;
   position: relative;
   width: 18rem;
-  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1), 0 2px 3px 0 rgba(0,0,0,0.15);
 }
+
 .meet-me {
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
   transition-duration: 0.4s;
 }
 
 .meet-me:hover {
   background-color: white;
-  color: #FF3E55;
-  border-style: solid;
   border-color: #FF3E55;
+  border-style: solid;
   border-width: medium;
+  color: #FF3E55;
 }
+
 .icons {
   display: flex;
   justify-content: space-evenly;
@@ -327,17 +324,17 @@ h6 {
 /*Responsive for Ipad*/
 @media screen and (min-width: 42rem) {
   h1 {
-    font-size: 3rem;
+    font-size: 3.4rem;
   }
 
   /* About Hero section*/
   .about {
-    height: 35rem;
+    height: 40rem;
   }
 
   .about-image {
-    width: 20rem;
     display: inline;
+    width: 23.35rem;
   }
 
   .about-text {
@@ -347,7 +344,7 @@ h6 {
   }
 
   .about-summary {
-    font-size: 2.4rem;
+    font-size: 3rem;
     line-height: 140%;
     padding-bottom: .1rem;
     padding-top: .5rem;
@@ -356,14 +353,14 @@ h6 {
 
   /* My story section*/
   h2 {
-    font-size: 2.4rem;
-    margin-top: 0rem;
+    font-size: 3.4rem;
+    margin-top: 45rem;
   }
 
   .about-title {
-    font-size: 3rem;
-    background-size: 15% 42%;
+    background-size: 21% 42%;
     color: #0E1F4F;
+    font-size: 3.5rem;
     margin-top: 40rem;
   }
 
@@ -374,14 +371,14 @@ h6 {
   h3 {
     color: #0E1F4F;
     font-family: 'Playfair Display', serif;
-    font-size: 2rem;
+    font-size: 2.4rem;
     margin-bottom: 2rem;
     margin-top: 5rem;
     width: 45rem;
   }
 
   .discovering-design-text {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
     width: 45rem;
   }
@@ -391,7 +388,7 @@ h6 {
   }
 
   .design-motivation-text {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
     width: 45rem;
   }
@@ -401,7 +398,7 @@ h6 {
   }
 
   .choosing-design-text {
-    font-size: 1.8rem;
+    font-size: 2rem;
     width: 45rem;
   }
 
@@ -417,7 +414,7 @@ h6 {
 
   /*Avid Learner Section*/
   .avid-learner-text {
-    font-size: 1.8rem;
+    font-size: 2rem;
     width: 45rem;
   }
 
@@ -471,13 +468,12 @@ h6 {
 
   /*Team Player section*/
   .team-player-text {
-    font-size: 1.8rem;
+    font-size: 2rem;
     width: 45rem;
   }
 
   .team-pics {
     display: grid;
-    grid-gap: 2rem;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 40%;
     height: 100%;
@@ -486,17 +482,13 @@ h6 {
     overflow: hidden;
   }
 
-  .manpreet-boat {
-    margin-bottom: 2rem;
-  }
-
   .manpreet-eggtoss {
     margin-bottom: 4rem;
   }
 
   /*Adventure Section*/
   .adventure-text {
-    font-size: 1.8rem;
+    font-size: 2rem;
     width: 45rem;
   }
 
@@ -541,14 +533,10 @@ h6 {
 
   .meet-me {
     display: inline-block;
-    font-size: 1.6rem;
-    height: 3rem;
-    left: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2rem;
-    padding: 0;
-    width: 15rem;
+    font-size: 1.8rem;
+    height: 4rem;
+    margin-top: 1.2rem;
+    width: 18rem;
   }
 
   .icons {
@@ -707,7 +695,6 @@ h6 {
 
   .team-pics {
     display: grid;
-    grid-gap: 2rem;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 40%;
     height: 100%;
@@ -760,12 +747,12 @@ h6 {
 
   /*Footer*/
   .footer-title {
-    font-size: 3rem;
+    font-size: 3.4rem;
     padding-top: 4rem;
   }
 
   .footer-body {
-    font-size: 2rem;
+    font-size: 2.4rem;
     padding-top: 1.8rem;
   }
 
