@@ -201,6 +201,13 @@ a {
 }
 
 /*Desktop Responsive design */
+@media screen and (min-width: 1200px) {
+  .header .logo {
+    margin-left: 10rem;
+    margin-top: .7rem;
+  }
+}
+
 @media screen and (min-width: 87rem) {
   .header li {
     float: right;

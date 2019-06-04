@@ -22,7 +22,6 @@ img {
   background-image: url(../images/heroimage2.png);
   display: flex;
   flex-direction: row-reverse;
-  float: right;
   height: 23rem;
   justify-content: space-between;
   padding-top: 50px;
@@ -98,12 +97,12 @@ img {
   background-image: url(../images/portfolio-rectangle.png);
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 15% 3%;
+  background-size: 15% 10%;
   color: #0E1F4F;
   font-family: 'Playfair display', serif;
   font-size: 1.8rem;
   font-weight: bold;
-  padding-top: 25rem;
+  padding-top: 5rem;
   text-align: center;
 }
 
@@ -288,9 +287,9 @@ h6 {
 
   /*Projects*/
   .work {
-    background-size: 10% 2.5%;
+    background-size: 10% 7%;
     font-size: 2.4rem;
-    padding-top: 36rem;
+    padding-top: 10rem;
   }
 
   .cloud-storage img {
