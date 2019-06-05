@@ -4,7 +4,7 @@
 
 html {
   font-size: 10px;
-scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -15,6 +15,7 @@ img {
 b {
   font-weight: bold;
 }
+
 .container {
   margin: 0 auto;
   overflow: hidden;
@@ -26,7 +27,7 @@ b {
   background-image: url(../images/heroimage2.png);
   display: flex;
   flex-direction: row-reverse;
-  height: 28rem;
+  height: 37rem;
   justify-content: space-between;
   padding-top: 50px;
   width: 100%;
@@ -42,25 +43,26 @@ b {
 
 .main-text {
   margin: auto;
-  margin-left: 2.5rem;
+  margin-left: auto;
 }
 
 .slogan {
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
-  font-size: 2.4rem;
+  font-size: 3rem;
   font-style: normal;
   font-weight: normal;
   line-height: 130%;
   margin-bottom: 2rem;
   padding-top: .5rem;
+  width: 31rem;
 }
 
 .intro-text {
   color: #0E1F4F;
   display: inline;
   font-family: 'Playfair Display', serif;
-  font-size: 2.4rem;
+  font-size: 3rem;
   font-style: normal;
   font-weight: normal;
   margin-right: .6rem;
@@ -69,7 +71,7 @@ b {
 .name {
   color: #0E1F4F;
   display: inline;
-  font-size: 2.8rem;
+  font-size: 3.4rem;
   font-style: 'Playfair Display', serif;
   font-weight: bold;
 }
@@ -97,13 +99,13 @@ b {
   display: inherit;
   padding-bottom: 2rem;
   padding-top: 4rem;
-  width: 90%;
+  width: 100%;
 }
 
 h2 {
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
   padding-bottom: 1rem;
   padding-left: 2rem;
@@ -127,7 +129,7 @@ h2 {
   font-family: 'Roboto Slab', serif;
   font-size: 1.6rem;
   font-weight: bold;
-  height: 3.5rem;
+  height: 4rem;
   margin-bottom: 10rem;
   margin-left: 2rem;
   margin-top: 1.2rem;
@@ -152,8 +154,8 @@ h2 {
 /**Footer**/
 .footer {
   background-image: url(../images/heroimage2.png);
-  width: 100%;}
-
+  width: 100%;
+}
 
 .footer-title {
   color: #0E1F4F;
@@ -187,7 +189,7 @@ h2 {
   font-family: 'Roboto Slab', serif;
   font-size: 1.6rem;
   font-weight: bold;
-  height: 3.5rem;
+  height: 4rem;
   left: 12rem;
   left: auto;
   margin-left: auto;
@@ -261,11 +263,12 @@ h6 {
 
   /*top hero section*/
   .portfolio-intro {
-    height: 36rem;
+    height: 48rem;
   }
 
   .main-text {
-    margin-left: 2rem;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 4rem;
   }
 
@@ -275,20 +278,20 @@ h6 {
   }
 
   .slogan {
-    font-size: 3rem;
+    font-size: 4rem;
     padding-bottom: 3rem;
     padding-top: .8rem;
-    width: auto;
+    width: 42rem;
   }
 
   .intro-text {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-right: .5rem;
     padding-right: 0rem;
   }
 
   .name {
-    font-size: 3.4rem;
+    font-size: 5rem;
   }
 
   /*Projects*/
@@ -305,7 +308,7 @@ h6 {
   }
 
   h2 {
-    font-size: 2.4rem;
+    font-size: 3.4rem;
     padding-bottom: 0rem;
     padding-top: 5rem;
   }
@@ -313,7 +316,7 @@ h6 {
   .project-description {
     display: block;
     font-size: 2rem;
-    line-height: 150%;
+    line-height: 140%;
     padding-top: 1.2rem;
     width: auto;
   }
@@ -325,6 +328,7 @@ h6 {
     margin-top: 2rem;
     width: 20rem;
   }
+
   .cloud-storage {
     margin-top: 2rem;
   }
@@ -392,39 +396,35 @@ h6 {
   }
 }
 
-/* Responsive for Desktop*/
-@media screen and (min-device-width: 1200px) {
+@media screen and (min-width: 1024px) {
 
   /*top hero section*/
   .portfolio-intro {
-    height: 52rem;
-    padding-top: 5rem;
-    width: 100%;
+    height: 50rem;
   }
 
   .main-text {
-    margin-bottom: auto;
-    margin-left: 5rem;
+    margin-left: auto;
     margin-right: auto;
-    margin-top: 5rem;
-    padding-top: 0rem;
-    text-align: left;
+    margin-top: 4rem;
   }
 
   .manpreet {
-    width: 50rem;
+    display: inline;
+    width: 43rem;
   }
 
   .slogan {
     font-size: 4.5rem;
-    padding-bottom: 0rem;
-    padding-top: .5rem;
+    padding-bottom: 3rem;
+    padding-top: .8rem;
     width: 50rem;
   }
 
   .intro-text {
-    font-size: 5rem;
-    padding-right: 1rem;
+    font-size: 4.5rem;
+    margin-right: .5rem;
+    padding-right: 0rem;
   }
 
   .name {
@@ -433,22 +433,19 @@ h6 {
 
   /*Projects*/
   .work {
-    background-size: 10% 10%;
+    background-size: 12% 8%;
     font-size: 4rem;
     padding-top: 10rem;
   }
-  .cloud-storage {
-    margin-left: 10rem;
-    margin-right: auto;
-  }
+
   .cloud-storage img {
     float: left;
     padding-bottom: 5rem;
-    width: 30%;
+    width: 40%;
   }
 
   h2 {
-    font-size: 3rem;
+    font-size: 3.4rem;
     padding-bottom: 0rem;
     padding-top: 5rem;
   }
@@ -458,7 +455,91 @@ h6 {
     font-size: 2.4rem;
     line-height: 150%;
     padding-top: 1.2rem;
-    width: 100rem;
+    width: 90rem;
+  }
+
+  .view-case-study {
+    font-size: 1.8rem;
+    height: 4rem;
+    margin-left: auto;
+    margin-top: 2rem;
+    width: 20rem;
+  }
+
+  .cloud-storage {
+    margin-top: 2rem;
+  }
+}
+
+/* Responsive for Desktop*/
+@media screen and (min-device-width: 1200px) {
+
+  /*top hero section*/
+  .portfolio-intro {
+    height: 73rem;
+    padding-top: 5rem;
+    width: 100%;
+  }
+
+  .main-text {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    padding-top: 0rem;
+    text-align: left;
+  }
+
+  .manpreet {
+    width: 60rem;
+  }
+
+  .slogan {
+    font-size: 6rem;
+    padding-bottom: 0rem;
+    padding-top: .5rem;
+    width: 68rem;
+  }
+
+  .intro-text {
+    font-size: 6rem;
+    padding-right: 1rem;
+  }
+
+  .name {
+    font-size: 7rem;
+  }
+
+  /*Projects*/
+  .work {
+    background-size: 10% 10%;
+    font-size: 4.5rem;
+    padding-top: 10rem;
+  }
+
+  .cloud-storage {
+    margin-left: 10rem;
+    margin-right: auto;
+  }
+
+  .cloud-storage img {
+    float: left;
+    padding-bottom: 5rem;
+    width: 35%;
+  }
+
+  h2 {
+    font-size: 5rem;
+    padding-bottom: 0rem;
+    padding-top: 5rem;
+  }
+
+  .project-description {
+    display: block;
+    font-size: 3rem;
+    line-height: 130%;
+    padding-top: 1.2rem;
+    width: 110rem;
   }
 
   .view-case-study {
@@ -466,7 +547,7 @@ h6 {
     height: 4rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2rem;
+    margin-top: 1.2rem;
     width: 20rem;
   }
 
@@ -536,60 +617,61 @@ h6 {
 
   /*top hero section*/
   .portfolio-intro {
-    height: 55rem;
+    height: 73rem;
     padding-top: 6rem;
   }
 
   .main-text {
     margin-bottom: auto;
-    margin-left: 6rem;
+    margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
     text-align: left;
   }
 
   .manpreet {
-    width: 60rem;
+    width: 65rem;
   }
 
   .slogan {
-    font-size: 4.5rem;
+    font-size: 6rem;
     padding-bottom: 2rem;
     padding-top: 1rem;
-    width: 50rem;
+    width: 65rem;
   }
 
   .intro-text {
-    font-size: 5rem;
+    font-size: 6rem;
     padding-right: 1rem;
   }
 
   .name {
-    font-size: 5rem;
+    font-size: 7rem;
   }
 
   /*Projects*/
   .work {
     background-size: 9% 10%;
-    font-size: 4rem;
+    font-size: 4.5rem;
     padding-top: 10rem;
   }
 
   .cloud-storage img {
     float: left;
     padding-bottom: 5rem;
-    width: 30%;
+    width: 35%;
   }
 
   h2 {
-    font-size: 3rem;
+    font-size: 5rem;
     padding-bottom: 0rem;
     padding-top: 5rem;
   }
 
   .project-description {
     display: block;
-    font-size: 2.4rem;
-    line-height: 150%;
+    font-size: 3rem;
+    line-height: 130%;
     padding-top: 1.2rem;
   }
 
@@ -598,11 +680,13 @@ h6 {
     height: 4rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2rem;
+    margin-top: 1.2rem;
     width: 20rem;
   }
 
   .cloud-storage {
+    margin-bottom: 5rem;
+    margin-left: 15rem;
     margin-top: 5rem;
   }
 
