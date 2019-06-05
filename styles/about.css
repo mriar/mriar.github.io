@@ -19,6 +19,10 @@ h2 {
   text-align: center;
 }
 
+strong {
+  font-weight: bold;
+}
+
 .container {
   margin: 0 auto;
   overflow: hidden;
