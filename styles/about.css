@@ -16,7 +16,6 @@ h2 {
   font-family: 'Playfair Display', serif;
   font-size: 3rem;
   font-weight: bold;
-  margin-top: 4rem;
   text-align: center;
 }
 
@@ -31,7 +30,7 @@ h2 {
   background-image: url(../images/heroimage2.png);
   display: flex;
   float: right;
-  height: 32rem;
+  height: 37rem;
   justify-content: space-between;
   padding-top: 50px;
   width: 100%;
@@ -40,7 +39,6 @@ h2 {
 .about-image {
   /*display: inline;*/
   display: none;
-  float: left;
   height: 100%;
   width: 18rem;
 }
@@ -55,7 +53,7 @@ h2 {
 .about-summary {
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
-  font-size: 2.4rem;
+  font-size: 3rem;
   font-style: normal;
   font-weight: normal;
   line-height: 130%;
@@ -67,7 +65,7 @@ h1 {
   color: #0E1F4F;
   display: inline;
   font-family: 'Playfair Display', serif;
-  font-size: 2.8rem;
+  font-size: 3.4rem;
   font-style: normal;
   font-weight: bold;
   height: 20px;
@@ -87,7 +85,7 @@ h1 {
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
   font-weight: bold;
-  margin-top: 35rem;
+  margin-top: 43rem;
   text-align: center;
 }
 
@@ -328,17 +326,19 @@ h6 {
 /*Responsive for Ipad*/
 @media screen and (min-width: 42rem) {
   h1 {
-    font-size: 3.4rem;
+    font-size: 5rem;
   }
 
   /* About Hero section*/
   .about {
-    height: 40rem;
+    height: 50rem;
+    margin-bottom: 10rem;
   }
 
   .about-image {
     display: inline;
-    width: 23.35rem;
+    padding-top: .3rem;
+    width: 30rem;
   }
 
   .about-text {
@@ -348,7 +348,7 @@ h6 {
   }
 
   .about-summary {
-    font-size: 3rem;
+    font-size: 4rem;
     line-height: 140%;
     padding-bottom: .1rem;
     padding-top: .5rem;
@@ -358,18 +358,18 @@ h6 {
   /* My story section*/
   h2 {
     font-size: 3.4rem;
-    margin-top: 45rem;
+    margin-top: 0rem;
   }
 
   .about-title {
-    background-size: 21% 42%;
+    background-size: 21% 8%;
     color: #0E1F4F;
     font-size: 3.5rem;
     margin-top: 40rem;
   }
 
   .discovering-design {
-    padding-top: 5rem;
+    padding-top: 0rem;
   }
 
   h3 {
@@ -583,32 +583,35 @@ h6 {
   }
 }
 
-/* Responsive for Desktop*/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   h1 {
     font-size: 5rem;
   }
 
   /* About Hero section*/
   .about {
-    height: 57.5rem;
+    height: 57.9rem;
+    margin-bottom: 10rem;
   }
 
   .about-image {
+    display: inline;
+    padding-top: .3rem;
     width: 35rem;
   }
 
   .about-text {
-    margin-bottom: auto;
-    margin-left: 4rem;
-    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
   }
 
   .about-summary {
-    font-size: 4rem;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    width: 60rem;
+    font-size: 4.5rem;
+    line-height: 140%;
+    padding-bottom: .1rem;
+    padding-top: .5rem;
+    width: 55rem;
   }
 
   /* My story section*/
@@ -618,7 +621,62 @@ h6 {
   }
 
   .about-title {
-    background-size: 13.5% 42%;
+    background-size: 18% 5%;
+    color: #0E1F4F;
+    font-size: 3.5rem;
+    margin-top: 40rem;
+  }
+
+  .discovering-design {
+    padding-top: 0rem;
+  }
+
+  h3 {
+    color: #0E1F4F;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.4rem;
+    margin-bottom: 1.2rem;
+    margin-top: 5rem;
+    width: 45rem;
+  }
+}
+
+/* Responsive for Desktop*/
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 7rem;
+  }
+
+  /* About Hero section*/
+  .about {
+    height: 73rem;
+  }
+
+  .about-image {
+    width: 45.1rem;
+  }
+
+  .about-text {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-top: auto;
+  }
+
+  .about-summary {
+    font-size: 6rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    width: 70rem;
+  }
+
+  /* My story section*/
+  h2 {
+    font-size: 4rem;
+    margin-top: 0rem;
+  }
+
+  .about-title {
+    background-size: 13.5% 8%;
     margin-top: 65rem;
   }
 
@@ -636,8 +694,8 @@ h6 {
 
   h3 {
     font-size: 2.4rem;
-    width: 55rem;
     margin-bottom: 1.2rem;
+    width: 55rem;
   }
 
   .discovering-design-text {
