@@ -12,6 +12,9 @@ img {
   width: 100%;
 }
 
+b {
+  font-weight: bold;
+}
 .container {
   margin: 0 auto;
   overflow: hidden;
