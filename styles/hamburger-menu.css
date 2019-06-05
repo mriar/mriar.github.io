@@ -144,7 +144,7 @@ a {
 /*Ipad Responsive design*/
 @media (min-width: 42rem) {
   .header li {
-    float: right;
+    float: left;
   }
 
   .header li a {
@@ -154,7 +154,7 @@ a {
   .header .menu {
     clear: none;
     float: right;
-    margin-right: 5rem;
+    margin-right: 0rem;
     max-height: none;
     position: relative;
     width: 72%;
@@ -207,11 +207,24 @@ a {
     margin-left: 10rem;
     margin-top: .7rem;
   }
+
+  .header li {
+    float: left;
+  }
+
+  .header .menu {
+    clear: none;
+    float: right;
+    margin-right: 0rem;
+    max-height: none;
+    position: relative;
+    width: 40%;
+  }
 }
 
 @media screen and (min-width: 87rem) {
   .header li {
-    float: right;
+    float: left;
   }
 
   .header li a {
@@ -221,9 +234,10 @@ a {
   .header .menu {
     clear: none;
     float: right;
+    margin-right: 0rem;
     max-height: none;
     position: relative;
-    width: 60%;
+    width: 40%;
   }
 
   .header .menu-icon {
