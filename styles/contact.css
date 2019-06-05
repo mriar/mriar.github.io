@@ -6,6 +6,57 @@ body {
   font-size: 10px;
 }
 
+.page-title {
+  background-image: url(../images/portfolio-rectangle.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 45% 9%;
+  color: #0E1F4F;
+  font-family: 'Playfair display', serif;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 10rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 42rem) {
+  .page-title {
+    background-size: 27% 9%;
+    font-size: 3.4rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .page-title {
+    background-size: 20% 9%;
+    font-size: 3.4rem;
+  }
+
+  #form-div {
+    margin-top: 0rem;
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width: 87rem) {
+  .page-title {
+    background-size: 15% 9%;
+    font-size: 3.4rem;
+  }
+
+  #form-div {
+    margin-top: 0rem;
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .page-title {
+    background-size: 15% 9%;
+    font-size: 3.4rem;
+  }
+}
+
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 #feedback-page {
@@ -288,7 +339,7 @@ h6 {
 
 @media screen and (min-width: 42rem) {
   #form-div {
-    margin-top: 10rem;
+    margin-top: 5rem;
     padding-bottom: 50px;
     padding-left: 35px;
     padding-right: 35px;
