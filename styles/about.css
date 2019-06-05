@@ -91,6 +91,10 @@ h1 {
   text-align: center;
 }
 
+b {
+  font-weight: 400;
+}
+
 .discovering-design {
   padding-top: 4rem;
 }
@@ -100,7 +104,7 @@ h3 {
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 1.6rem;
+  margin-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
@@ -372,7 +376,7 @@ h6 {
     color: #0E1F4F;
     font-family: 'Playfair Display', serif;
     font-size: 2.4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.2rem;
     margin-top: 5rem;
     width: 45rem;
   }
@@ -633,6 +637,7 @@ h6 {
   h3 {
     font-size: 2.4rem;
     width: 55rem;
+    margin-bottom: 1.2rem;
   }
 
   .discovering-design-text {
