@@ -333,7 +333,7 @@ h6 {
   /*Footer*/
   .footer-title {
     font-size: 2.4rem;
-    padding-top: 4rem; 
+    padding-top: 4rem;
   }
 
   .footer-body {
@@ -343,14 +343,10 @@ h6 {
 
   .meet-me {
     display: inline-block;
-    font-size: 1.6rem;
-    height: 3rem;
-    left: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2rem;
-    padding: 0;
-    width: 15rem;
+    font-size: 1.8rem;
+    height: 4rem;
+    margin-top: 1.2rem;
+    width: 20rem;
   }
 
   .icons {
