@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="styles/scroll.css">
   <link rel="stylesheet" type="text/css" href="styles/hamburger-menu.css">
   <link rel="stylesheet" type="text/css" href="styles/about.css">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
@@ -42,7 +43,9 @@
       <article class="about-text">
         <h1>About Me</h1>
         <p class="about-summary">I design with people in mind, with a touch of <strong>empathy & advocacy</strong> for those who struggle to have a <strong>voice</strong> in tech.</p>
-        <button onclick="window.open('https://calendly.com/mriar','_blank');" class="meet-me">Meet with Me</button>
+        <div class="scroll">
+          <a href="#design-article" class="scroll-down" address="true"></a>
+        </div>
       </article>
     </section>
     <!-- My Story Section-->
@@ -50,7 +53,7 @@
       <div class="about-title">
         <h2>My Story</h2>
       </div>
-      <div class="design-article">
+      <div id="design-article">
         <article class="discovering-design">
           <h3>Discovering Design</h3>
           <p class="discovering-design-text">My passion for user experience design started when I was a Junior in college studying <b>communications</b>. My professor shared with us the ability to empower people to do things they have never done
