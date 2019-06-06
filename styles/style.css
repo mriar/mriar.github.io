@@ -264,23 +264,21 @@ h6 {
   }
 
   .main-text {
+    margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4rem;
+    margin-top: auto;
   }
 
   .manpreet {
-    clip-path: inset(2px 20px 0px 0px);
-    display: inline;
-    height: 100%;
-    width: 100%;
+    display: none;
   }
 
   .slogan {
     font-size: 4rem;
     padding-bottom: 3rem;
     padding-top: .8rem;
-    width: 42rem;
+    width: 45rem;
   }
 
   .intro-text {
@@ -290,7 +288,7 @@ h6 {
   }
 
   .name {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   /*Projects*/
@@ -303,7 +301,7 @@ h6 {
   .cloud-storage img {
     float: left;
     padding-bottom: 5rem;
-    width: 40%;
+    width: 50%;
   }
 
   h2 {
@@ -314,7 +312,7 @@ h6 {
 
   .project-description {
     display: block;
-    font-size: 2rem;
+    font-size: 2.4rem;
     line-height: 140%;
     padding-top: 1.2rem;
     width: auto;
@@ -493,8 +491,6 @@ h6 {
 
   .manpreet {
     clip-path: inset(2px 20px 0px 0px);
-    height: 100%;
-    width: 100%;
   }
 
   .slogan {
@@ -521,6 +517,7 @@ h6 {
   }
 
   .cloud-storage {
+    margin-bottom: 10rem;
     margin-left: 10rem;
     margin-right: auto;
   }
@@ -542,7 +539,7 @@ h6 {
     font-size: 3rem;
     line-height: 130%;
     padding-top: 1.2rem;
-    width: 110rem;
+    width: auto;
   }
 
   .view-case-study {
@@ -633,9 +630,7 @@ h6 {
   }
 
   .manpreet {
-    clip-path: inset(2px 20px 0px 0px);
-    height: 100%;
-    width: 100%;
+    clip-path: inset(0px 50px 0px 0px);
   }
 
   .slogan {
@@ -690,7 +685,6 @@ h6 {
   }
 
   .cloud-storage {
-    margin-bottom: 5rem;
     margin-left: 15rem;
     margin-top: 5rem;
   }
