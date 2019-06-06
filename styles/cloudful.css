@@ -240,6 +240,7 @@ h1 {
 }
 
 /*User Personas*/
+
 .persona-title {
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
@@ -265,6 +266,10 @@ h5 {
 }
 
 .male-persona {
+  width: 87%;
+  display: flex;
+}
+.female-persona {
   width: 87%;
   display: flex;
 }
@@ -301,7 +306,7 @@ blockquote {
   margin: 20px auto;
   padding: 1.2em 30px 1.2em 75px;
   position: relative;
-  width: 100%;
+  width: 87%;
 }
 
 blockquote::before {
@@ -330,14 +335,14 @@ blockquote span {
 .user-stories-text {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: lighter;
   line-height: 150%;
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1.6rem;
-  width: 32rem;
+  margin-top: 1rem;
+  width: 33rem;
 }
 
 .user-stories {
@@ -350,7 +355,7 @@ blockquote span {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  font-weight: lighter;
+  font-weight: 500;
   line-height: normal;
   margin-left: auto;
   margin-right: auto;
@@ -365,15 +370,29 @@ blockquote span {
   color: white;
   display: flex;
   font-family: 'Roboto Slab', serif;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: bold;
-  height: 2.5rem;
+  height: 4rem;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1.2rem;
-  width: 13rem;
+  width: 18rem;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1), 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+}
+.view-user-stories {
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+}
+
+.view-user-stories:hover {
+  background-color: white;
+  border-color: #FF3E55;
+  border-style: solid;
+  border-width: medium;
+  color: #FF3E55;
 }
 
 .view-user-flows {
@@ -385,42 +404,56 @@ blockquote span {
   color: white;
   display: flex;
   font-family: 'Roboto Slab', serif;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: bold;
-  height: 2.5rem;
+  height: 4rem;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1.2rem;
-  width: 13rem;
+  width: 18rem;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1), 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+}
+.view-user-flows {
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+}
+
+.view-user-flows:hover {
+  background-color: white;
+  border-color: #FF3E55;
+  border-style: solid;
+  border-width: medium;
+  color: #FF3E55;
 }
 
 /* Sketches*/
 .sketches-text {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: lighter;
   line-height: 150%;
-  margin-bottom: 1.2rem;
+  margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1.6rem;
-  width: 32rem;
+  margin-top: 1rem;
+  width: 33rem;
 }
 
 /*Wireframes*/
 .wireframe-text {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: lighter;
   line-height: 150%;
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1.6rem;
-  width: 32rem;
+  margin-top: 1rem;
+  width: 33rem;
 }
 
 .view-wireframes {
@@ -432,28 +465,41 @@ blockquote span {
   color: white;
   display: flex;
   font-family: 'Roboto Slab', serif;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: bold;
-  height: 2.5rem;
+  height: 4rem;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1.2rem;
-  width: 13rem;
+  width: 18rem;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1), 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+}
+.view-wireframes {
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
 }
 
+.view-wireframes:hover {
+  background-color: white;
+  border-color: #FF3E55;
+  border-style: solid;
+  border-width: medium;
+  color: #FF3E55;
+}
 /*User Tests Round 1*/
 .user-test1-text {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: lighter;
   line-height: 150%;
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1.6rem;
-  width: 32rem;
+  margin-top: 1rem;
+  width: 33rem;
 }
 
 .video1 {
@@ -472,23 +518,39 @@ blockquote span {
   color: white;
   display: flex;
   font-family: 'Roboto Slab', serif;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: bold;
-  height: 2.5rem;
+  height: 4rem;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1.2rem;
-  width: 13rem;
+  width: 18rem;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1), 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+}
+.view-user-tests1 {
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
 }
 
+.view-user-tests1:hover {
+  background-color: white;
+  border-color: #FF3E55;
+  border-style: solid;
+  border-width: medium;
+  color: #FF3E55;
+}
 .feedback-title {
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: bold;
   margin-top: 4rem;
-  text-align: center;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33rem;
 }
 
 .list-feedback {
@@ -506,7 +568,7 @@ blockquote span {
   margin-left: auto;
   margin-right: auto;
   margin-top: 1.6rem;
-  width: 32rem;
+  width: 33rem;
 }
 
 /*Logo*/

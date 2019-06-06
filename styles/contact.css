@@ -181,8 +181,8 @@ input:focus, textarea:focus {
   cursor: pointer;
   float: left;
   font-family: 'Roboto Slab', sans-serif;
-  font-size: 24px;
-  padding-bottom: 20px;
+  font-size: 20px;
+  padding-bottom: 23px;
   padding-top: 22px;
   transition: all 0.3s;
   width: 100%;
