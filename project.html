@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <link rel="stylesheet" type="text/css" href="styles/reset.css">
-  <link rel="stylesheet" type="text/css" href="animate.css">
   <link rel="stylesheet" type="text/css" href="styles/hamburger-menu.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
   <link rel="stylesheet" type="text/css" href="styles/cloudful.css">
@@ -199,8 +198,10 @@
     </section>
 
     <!-- Design process starts here-->
-    <p class="process">The Design Process</P>
-
+    <div class="scroll-animations">
+    <div class="animated slideInLeft"><p class="process">The Design Process</P>
+</div>
+</div>
     <!-- Research includes survey insights,competitve analysis, and user personas.-->
 
     <section class="research">
@@ -250,7 +251,11 @@
       <p class="analysis-text">Cloud storage is a crowded market with big name brands like Google & Dropbox. These companies offer not enough storage space for users and are targeted to businesses rather than people. There is room for a niche service
         providing users
         with targeted features to help them organize their personal files.</p>
-      <img src="images/competitiveAnalysis.png" class="google-dropbox" alt="Image of Google & Dropbox dashboard screen">
+        <div class="scroll-animations">
+          <div class="animated slideInLeft">
+    <img src="images/competitiveAnalysis.png" class="google-dropbox" alt="Image of Google & Dropbox dashboard screen">
+</div>
+</div>
     </article>
 
     <div class="persona-heading">
@@ -500,10 +505,8 @@
       </footer>
     </div>
   </div>
-  <script src="wow.min.js"></script>
-               <script>
-               new WOW().init();
-               </script>
+  <script  type="text/javascript" src="js/scroll-animations.js"></script>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141239638-1"></script>

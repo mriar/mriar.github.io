@@ -38,7 +38,7 @@ html{
   transform: scale(1);
   transition: all .2s ease-in;
   width: 32px;
-  z-index: 2
+  z-index: 2;
 }
 
 .scroll-down:before {
