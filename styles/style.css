@@ -65,13 +65,7 @@ b {
   margin-right: .6rem;
 }
 
-.name {
-  color: #0E1F4F;
-  display: inline;
-  font-size: 3.4rem;
-  font-style: 'Playfair Display', serif;
-  font-weight: bold;
-}
+
 
 /** Projects Section**/
 .work {
@@ -287,9 +281,6 @@ h6 {
     padding-right: 0rem;
   }
 
-  .name {
-    font-size: 4rem;
-  }
 
   /*Projects*/
   .work {
@@ -422,9 +413,6 @@ h6 {
     padding-right: 0rem;
   }
 
-  .name {
-    font-size: 5rem;
-  }
 
   /*Projects*/
   .work {
@@ -501,9 +489,6 @@ h6 {
     padding-right: 1rem;
   }
 
-  .name {
-    font-size: 7rem;
-  }
 
   /*Projects*/
   .work {

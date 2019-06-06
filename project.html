@@ -5,7 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <link rel="stylesheet" type="text/css" href="styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="animate.css">
   <link rel="stylesheet" type="text/css" href="styles/hamburger-menu.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
   <link rel="stylesheet" type="text/css" href="styles/cloudful.css">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
@@ -40,7 +42,7 @@
       </div>
       <article class="project">
         <div class="cloudful-prototype">
-          <img src="images/cloudful-mockup.png" class="cloudful" alt="CloudFul Project Prototype Image">
+          <img src="images/cloudful-mockup.png" class="cloudful animated slideInLeft" alt="CloudFul Project Prototype Image">
           <button onclick="window.open('https://xd.adobe.com/view/09402a4b-008c-4c8a-65c0-093e582c9b7b-7f71/?fullscreen','_blank');" class="view-prototype" name="button">View Prototype</button>
         </div>
       </article>
@@ -498,6 +500,10 @@
       </footer>
     </div>
   </div>
+  <script src="wow.min.js"></script>
+               <script>
+               new WOW().init();
+               </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141239638-1"></script>

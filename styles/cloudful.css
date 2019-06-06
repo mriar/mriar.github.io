@@ -10,7 +10,10 @@ img {
   margin: 0 auto;
   width: 100%;
 }
-
+.animated {
+  animation-duration: 2.5s;
+  animation-delay: .2s;
+}
 h2 {
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
