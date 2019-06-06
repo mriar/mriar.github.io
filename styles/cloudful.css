@@ -14,10 +14,13 @@ img {
 h2 {
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: bold;
-  margin-top: 4rem;
-  text-align: center;
+  margin-top: 5rem;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33rem;
 }
 
 /** CSS Grid Setup**/
@@ -35,10 +38,10 @@ h1 {
   background-image: url(../images/portfolio-rectangle.png);
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 27% 41%;
+  background-size: 37% 41%;
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
   margin-top: 4rem;
   text-align: center;
@@ -47,7 +50,7 @@ h1 {
 .cloudful {
   display: block;
   margin-top: 2rem;
-  width: 80%;
+  width: 90%;
 }
 
 .cloudful-prototype {
@@ -62,41 +65,54 @@ h1 {
   color: white;
   display: block;
   font-family: 'Roboto Slab', serif;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: bold;
-  height: 2.5rem;
+  height: 4rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1.2rem;
-  width: 13rem;
+  width: 18rem;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1), 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+}
+.view-prototype {
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
 }
 
+.view-prototype:hover {
+  background-color: white;
+  border-color: #FF3E55;
+  border-style: solid;
+  border-width: medium;
+  color: #FF3E55;
+}
 .summary-text {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: lighter;
   line-height: 150%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1.6rem;
+  margin-top: 1rem;
   padding-bottom: 4rem;
   text-align: left;
-  width: 35rem;
+  width: 33rem;
 }
 
 /** Roles, Deliverables, & Tools**/
 .specs {
   background-image: url(../images/yellow-rectangle.png);
-  padding-bottom: 4rem;
-  padding-top: .01rem;
+  padding-bottom: 5rem;
+  padding-top: 1rem;
   text-align: center;
 }
 
 .specs-text {
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: bold;
   margin-top: 4rem;
 }
@@ -104,24 +120,24 @@ h1 {
 .item-text {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: lighter;
   line-height: 150%;
 }
 
 .list-items {
-  margin-top: 1.6rem;
+  margin-top: 1rem;
 }
 
 /* Problems , Solution, & Assumption*/
 .list-problems {
-  margin-top: 1.6rem;
+  margin-top: 1rem;
 }
 
 .dashed-list {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: lighter;
   line-height: 150%;
   list-style: square;
@@ -135,20 +151,20 @@ h1 {
 .solution-text {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: lighter;
   line-height: 150%;
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1.6rem;
+  margin-top: 1rem;
   text-align: left;
   width: 35rem;
 }
 
 .list-assumptions {
   margin-bottom: 4rem;
-  margin-top: 1.6rem;
+  margin-top: 1rem;
 }
 
 .process {
@@ -164,23 +180,23 @@ h1 {
 /*Survey results*/
 .survey-section {
   background-image: url(../images/yellow-rectangle.png);
-  padding-bottom: 1rem;
-  padding-top: .01rem;
+  padding-bottom: 2rem;
+  padding-top: 4rem;
 }
 
 .percentages {
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
-  margin-top: 2.5rem;
+  margin-top: 3rem;
   text-align: center;
 }
 
 .survey-intro-text {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: lighter;
   line-height: 150%;
   margin-bottom: 5rem;
@@ -188,19 +204,19 @@ h1 {
   margin-right: auto;
   margin-top: 1.2rem;
   text-align: left;
-  width: 35rem;
+  width: 33rem;
 }
 
 .survey-text {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: lighter;
   line-height: 150%;
   margin-bottom: 5rem;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1.2rem;
+  margin-top: 1rem;
   text-align: center;
   width: 20rem;
 }
@@ -213,73 +229,64 @@ h1 {
 .analysis-text {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: lighter;
   line-height: 150%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1.6rem;
+  margin-top: 1rem;
   text-align: left;
-  width: 35rem;
+  width: 33rem;
 }
 
 /*User Personas*/
 .persona-title {
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: bold;
-  margin-top: 2rem;
+  margin-top: 4rem;
   text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33rem;
 }
 
 h5 {
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: bold;
   margin-top: 2rem;
-  text-align: center;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33rem;
 }
 
-.user-persona1 {
-  border: solid;
-  border-color: #F8C504;
-  margin-left: .5rem;
-  margin-right: 1rem;
-  margin-top: 1.6rem;
-  padding-bottom: 4rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+.male-persona {
+  width: 87%;
+  display: flex;
 }
 
 .persona-text {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 400;
   line-height: 150%;
-  margin-bottom: 2rem;
+  margin-bottom: .5rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: .2rem;
-  text-align: center;
+  text-align: left;
+  width: 33rem;
 }
 
-.personas {
-  margin-top: 1.6rem;
+.user-persona1 {
+  margin-bottom: 5rem;
 }
 
-.user-persona2 {
-  border: solid;
-  border-color: #F8C504;
-  margin-left: .5rem;
-  margin-right: 1rem;
-  margin-top: 2rem;
-  padding-bottom: 4rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
 
@@ -288,7 +295,7 @@ blockquote {
   border-left: 8px solid #0E1F4F;
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
-  font-size: 1.6em;
+  font-size: 1.8em;
   font-style: italic;
   line-height: 1.6;
   margin: 20px auto;

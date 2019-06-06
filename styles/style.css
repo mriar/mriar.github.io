@@ -36,9 +36,6 @@ b {
 .manpreet {
   /*display: inline;*/
   display: none;
-  float: left;
-  height: 100%;
-  width: 15rem;
 }
 
 .main-text {
@@ -273,8 +270,10 @@ h6 {
   }
 
   .manpreet {
+    clip-path: inset(2px 20px 0px 0px);
     display: inline;
-    width: 30rem;
+    height: 100%;
+    width: 100%;
   }
 
   .slogan {
@@ -410,8 +409,10 @@ h6 {
   }
 
   .manpreet {
+    clip-path: inset(2px 20px 0px 0px);
     display: inline;
-    width: 43rem;
+    height: 100%;
+    width: 100%;
   }
 
   .slogan {
@@ -491,7 +492,9 @@ h6 {
   }
 
   .manpreet {
-    width: 60rem;
+    clip-path: inset(2px 20px 0px 0px);
+    height: 100%;
+    width: 100%;
   }
 
   .slogan {
@@ -630,7 +633,9 @@ h6 {
   }
 
   .manpreet {
-    width: 65rem;
+    clip-path: inset(2px 20px 0px 0px);
+    height: 100%;
+    width: 100%;
   }
 
   .slogan {
