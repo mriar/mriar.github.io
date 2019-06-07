@@ -10,10 +10,18 @@ img {
   margin: 0 auto;
   width: 100%;
 }
+
 .animated {
-  animation-duration: 2.5s;
-  animation-delay: .2s;
-  visibility: hidden;
+animation-duration: 2.5s;
+animation-delay: .2s;
+}
+
+.animated::before {
+visibility: hidden;
+}
+
+.animated::after {
+visibility: visible;
 }
 h2 {
   color: #0E1F4F;
