@@ -870,6 +870,13 @@ blockquote span {
 }
 
 /*Features*/
+.features {
+  background: #d6fbfc;
+  margin-top: 10rem;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+
 .features-text {
   color: #0E1F4F;
   font-family: 'Roboto', sans-serif;
