@@ -13,6 +13,7 @@ img {
 .animated {
   animation-duration: 2.5s;
   animation-delay: .2s;
+  visibility: hidden;
 }
 h2 {
   color: #0E1F4F;
