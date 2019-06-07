@@ -380,9 +380,10 @@ blockquote span {
 }
 
 .user-stories {
-  background-image: url(../images/yellow-rectangle.png);
-  padding-bottom: 2rem;
-  padding-top: 2rem;
+  display: grid;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-align: left;
 }
 
 .user-stories-item {
@@ -393,7 +394,7 @@ blockquote span {
   line-height: normal;
   margin-left: auto;
   margin-right: auto;
-  width: 33rem;
+  width: 32rem;
 }
 
 .view-user-stories {
@@ -716,7 +717,7 @@ blockquote span {
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 4rem;
+  margin-top: 5rem;
   width: 33rem;
 }
 
@@ -732,6 +733,7 @@ blockquote span {
   margin-top: 4rem;
   width: 100%;
 }
+
 .view-mockups {
   align-items: center;
   background: #FF3E55;
@@ -745,6 +747,7 @@ blockquote span {
   font-weight: bold;
   height: 4rem;
   justify-content: center;
+  margin-bottom: 5rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1.2rem;
@@ -1242,7 +1245,7 @@ h6 {
 
   .user-stories {
     padding-bottom: 2rem;
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
 
   .user-stories-item {
@@ -1290,6 +1293,7 @@ h6 {
   }
 
   .sketch1 {
+    display: flex;
     margin-top: 0;
     width: 200px;
   }
@@ -1442,13 +1446,15 @@ h6 {
 
   .second-homepage-image {
     margin-top: 0;
-    width: 85%;
+    width: 94%;
   }
-.view-mockups{
-  font-size: 1.8rem;
-  width: 28rem;
-  margin-top: 5rem;
-}
+
+  .view-mockups {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    width: 28rem;
+  }
+
   .test-images-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -2007,14 +2013,13 @@ h6 {
   }
 
   .first-homepage-image {
-    margin-left: 25rem;
-    width: 49%;
+    margin-left: 23rem;
+    width: 70%;
   }
 
   .second-homepage-image {
-    margin-right: 32rem;
     margin-top: 0;
-    width: 50%;
+    width: 76%;
   }
 
   .test-images-2 {
@@ -2023,6 +2028,10 @@ h6 {
     grid-template-rows: auto auto;
     margin-bottom: 15rem;
     overflow: hidden;
+  }
+
+  .view-mockups {
+    margin-top: 3rem;
   }
 
   .test-image-3 {
@@ -2129,7 +2138,7 @@ h6 {
   .conclusion {
     font-size: 2.4rem;
     margin-bottom: 1rem;
-    width: 50rem;
+    width: 55rem;
   }
 
   .conclusion-text {
