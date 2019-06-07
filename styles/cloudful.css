@@ -12,17 +12,15 @@ img {
 }
 
 .animated {
-animation-duration: 2.5s;
-animation-delay: .2s;
+  animation-delay: .2s;
+  animation-duration: 2.5s;
+  visibility: hidden;
 }
 
-.animated::before {
-visibility: hidden;
+.animated.slideInLeft {
+  visibility: visible;
 }
 
-.animated::after {
-visibility: visible;
-}
 h2 {
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
@@ -34,13 +32,16 @@ h2 {
   text-align: left;
   width: 33rem;
 }
+
 b {
   font-weight: bold;
 }
-strong{
+
+strong {
   font-family: 'Karla', sans-serif;
   font-weight: bold;
 }
+
 /** CSS Grid Setup**/
 .container {
   margin: 0 auto;
