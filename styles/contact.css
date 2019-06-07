@@ -78,7 +78,7 @@ body {
 }
 
 #form-div {
-  background-color: #3c3c3c;
+  background-color: #F8C504;
   float: left;
   left: 50%;
   margin-left: -260px;
@@ -112,7 +112,7 @@ body {
 
 .feedback-input:focus {
   background: #fff;
-  border: 3px solid #F8C504;
+  border: 3px solid #FF3E55;
   box-shadow: 0;
   color: #0E1F4F;
   outline: none;
