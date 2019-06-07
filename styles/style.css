@@ -87,7 +87,7 @@ b {
 }
 
 .cloud-image {
-  display: inherit;
+  display: inline;
   padding-bottom: 2rem;
   padding-top: 4rem;
   width: 100%;
