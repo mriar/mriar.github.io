@@ -65,8 +65,6 @@ b {
   margin-right: .6rem;
 }
 
-
-
 /** Projects Section**/
 .work {
   background-image: url(../images/portfolio-rectangle.png);
@@ -81,13 +79,8 @@ b {
   text-align: center;
 }
 
-.cloud-storage {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .cloud-image {
-  display: inline;
+  display: inline-block;
   padding-bottom: 2rem;
   padding-top: 4rem;
   width: 100%;
@@ -100,6 +93,11 @@ h2 {
   font-weight: 700;
   padding-bottom: 1rem;
   padding-left: 2rem;
+}
+
+.project1 {
+  padding-top: 4rem;
+  width: 100%;
 }
 
 .project-description {
@@ -281,7 +279,6 @@ h6 {
     padding-right: 0rem;
   }
 
-
   /*Projects*/
   .work {
     background-size: 13% 8%;
@@ -290,21 +287,21 @@ h6 {
   }
 
   .cloud-image {
-    float: left;
-    padding-bottom: 5rem;
-    width: 50%;
+    padding-bottom: 2rem;
+    width: 100%;
   }
 
   h2 {
     font-size: 3.4rem;
     padding-bottom: 0rem;
-    padding-top: 5rem;
+    padding-left: 0rem;
   }
 
   .project-description {
     display: block;
     font-size: 2.4rem;
     line-height: 140%;
+    padding-left: 0rem;
     padding-top: 1.2rem;
     width: auto;
   }
@@ -317,8 +314,10 @@ h6 {
     width: 20rem;
   }
 
-  .cloud-storage {
-    margin-top: 2rem;
+  .project1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
   }
 
   /*Footer*/
@@ -413,7 +412,6 @@ h6 {
     padding-right: 0rem;
   }
 
-
   /*Projects*/
   .work {
     background-size: 12% 8%;
@@ -421,16 +419,21 @@ h6 {
     padding-top: 10rem;
   }
 
-  .cloud-image{
-    float: left;
-    padding-bottom: 5rem;
-    width: 40%;
+  .cloud-image {
+    padding-bottom: 2rem;
+    width: 100%;
+  }
+
+  .project1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 
   h2 {
     font-size: 3.4rem;
     padding-bottom: 0rem;
-    padding-top: 5rem;
+    padding-top: 0rem;
   }
 
   .project-description {
@@ -438,7 +441,13 @@ h6 {
     font-size: 2.4rem;
     line-height: 150%;
     padding-top: 1.2rem;
-    width: 90rem;
+  }
+
+  .project1 {
+    margin-bottom: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
   }
 
   .view-case-study {
@@ -447,10 +456,6 @@ h6 {
     margin-left: auto;
     margin-top: 2rem;
     width: 20rem;
-  }
-
-  .cloud-storage {
-    margin-top: 2rem;
   }
 }
 
@@ -489,7 +494,6 @@ h6 {
     padding-right: 1rem;
   }
 
-
   /*Projects*/
   .work {
     background-size: 10% 10%;
@@ -497,22 +501,27 @@ h6 {
     padding-top: 10rem;
   }
 
-  .cloud-storage {
+  .cloudful {
     margin-bottom: 10rem;
     margin-left: 10rem;
-    margin-right: auto;
   }
 
   .cloud-image {
-    float: left;
-    padding-bottom: 5rem;
-    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+    width: 100%;
+  }
+
+  .project1 {
+    margin-bottom: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 
   h2 {
     font-size: 5rem;
-    padding-bottom: 0rem;
-    padding-top: 5rem;
   }
 
   .project-description {
@@ -520,7 +529,7 @@ h6 {
     font-size: 3rem;
     line-height: 130%;
     padding-top: 1.2rem;
-    width: auto;
+    width: 100%;
   }
 
   .view-case-study {
@@ -637,10 +646,10 @@ h6 {
     padding-top: 10rem;
   }
 
-    .cloud-image{
+  .cloud-image {
     float: left;
-    padding-bottom: 5rem;
-    width: 35%;
+    padding-bottom: 2rem;
+    width: 100%;
   }
 
   h2 {
@@ -665,9 +674,11 @@ h6 {
     width: 20rem;
   }
 
-  .cloud-storage {
-    margin-left: 15rem;
-    margin-top: 5rem;
+  .project1 {
+    margin-bottom: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 
   /*Footer*/
