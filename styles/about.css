@@ -800,7 +800,7 @@ h6 {
   }
 
   .choosing-design {
-    margin-top: 1rem;
+    margin-top: 0rem;
   }
 
   .choosing-design-text {
@@ -810,7 +810,9 @@ h6 {
   }
 
   .golden-temple {
-    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .image-text {
@@ -823,7 +825,7 @@ h6 {
     margin-bottom: 4rem;
     margin-left: auto;
     margin-right: auto;
-    width: 84.5%;
+    width: 86%;
   }
 
   /*Avid Learner Section*/
@@ -835,7 +837,7 @@ h6 {
   .avid-learner {
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 92%;
   }
 
   .learner-pics {
@@ -858,7 +860,7 @@ h6 {
   .team-player {
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 92%;
   }
 
   .team-pics {
@@ -889,7 +891,7 @@ h6 {
   .adventure {
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 92%;
   }
 
   .adventure-images {
