@@ -449,6 +449,12 @@ h6 {
     width: 45rem;
   }
 
+  .avid-learner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 79%;
+  }
+
   .wakeboarding {
     margin-bottom: 0rem;
     margin-left: auto;
@@ -498,6 +504,12 @@ h6 {
   }
 
   /*Team Player section*/
+  .team-player {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
   .team-player-text {
     font-size: 2rem;
     width: 45rem;
@@ -518,6 +530,12 @@ h6 {
   }
 
   /*Adventure Section*/
+  .adventure {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
   .adventure-text {
     font-size: 2rem;
     width: 45rem;
@@ -680,7 +698,19 @@ h6 {
     margin-bottom: 4rem;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 45%;
+  }
+
+  .avid-learner {
+    width: 60%;
+  }
+
+  .team-player {
+    width: 60%;
+  }
+
+  .adventure {
+    width: 60%;
   }
 }
 
@@ -793,13 +823,19 @@ h6 {
     margin-bottom: 4rem;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 79%;
   }
 
   /*Avid Learner Section*/
   .avid-learner-text {
     font-size: 2rem;
     width: 55rem;
+  }
+
+  .avid-learner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 83%;
   }
 
   .learner-pics {
@@ -817,6 +853,12 @@ h6 {
   .team-player-text {
     font-size: 2rem;
     width: 55rem;
+  }
+
+  .team-player {
+    margin-left: auto;
+    margin-right: auto;
+    width: 83%;
   }
 
   .team-pics {
@@ -842,6 +884,12 @@ h6 {
   .adventure-text {
     font-size: 2rem;
     width: 55rem;
+  }
+
+  .adventure {
+    margin-left: auto;
+    margin-right: auto;
+    width: 83%;
   }
 
   .adventure-images {
