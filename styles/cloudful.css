@@ -189,12 +189,15 @@ h1 {
 }
 
 .process {
+  background: #d6fbfc;
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
   font-style: italic;
   font-weight: lighter;
   margin-top: 5rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
   text-align: center;
 }
 
@@ -1337,9 +1340,6 @@ h6 {
   }
 
   .video1 {
-    border: solid;
-    border-color: #F8C504;
-    border-width: medium;
     width: 80%;
   }
 
@@ -1478,9 +1478,6 @@ h6 {
   }
 
   .video2 {
-    border: solid;
-    border-color: #F8C504;
-    border-width: medium;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -1932,9 +1929,6 @@ h6 {
   }
 
   .video1 {
-    border: solid;
-    border-color: #F8C504;
-    border-width: medium;
     width: 50%;
   }
 
