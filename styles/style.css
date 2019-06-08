@@ -393,10 +393,9 @@ h6 {
   }
 
   .manpreet {
-    clip-path: inset(2px 20px 0px 0px);
     display: inline;
     height: 100%;
-    width: 100%;
+    width: 80%;
   }
 
   .slogan {
@@ -479,7 +478,7 @@ h6 {
   }
 
   .manpreet {
-    clip-path: inset(2px 50px 0px 0px);
+    width: 90%;
   }
 
   .slogan {
@@ -614,13 +613,13 @@ h6 {
   .main-text {
     margin-bottom: auto;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 10rem;
     margin-top: auto;
     text-align: left;
   }
 
   .manpreet {
-    clip-path: inset(0px 50px 0px 0px);
+    width: 85%;
   }
 
   .slogan {
@@ -632,7 +631,7 @@ h6 {
 
   .intro-text {
     font-size: 6rem;
-    padding-right: 1rem;
+    padding-right: 0rem;
   }
 
   .name {
