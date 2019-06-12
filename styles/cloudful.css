@@ -12,8 +12,8 @@ img {
 }
 
 .animated {
-  animation-delay: .2s;
-  animation-duration: 2.5s;
+  animation-delay: .1s;
+  animation-duration: 2s;
   visibility: hidden;
 }
 
@@ -382,22 +382,15 @@ blockquote span {
   width: 33rem;
 }
 
-.user-stories {
+.button-grid {
   display: grid;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-  text-align: left;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+  overflow: hidden;
 }
 
-.user-stories-item {
-  color: #0E1F4F;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem;
-  font-weight: 500;
-  line-height: normal;
-  margin-left: auto;
-  margin-right: auto;
-  width: 32rem;
+.view-user-flows.invis {
+  display: none;
 }
 
 .view-user-stories {
@@ -413,7 +406,6 @@ blockquote span {
   font-weight: bold;
   height: 4rem;
   justify-content: center;
-  margin-bottom: 5rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1.2rem;
@@ -461,6 +453,40 @@ blockquote span {
 }
 
 .view-user-flows:hover {
+  background-color: white;
+  border-color: #FF3E55;
+  border-style: solid;
+  border-width: medium;
+  color: #FF3E55;
+}
+
+.view-sitemap {
+  align-items: center;
+  align-items: center;
+  background: #FF3E55;
+  border-radius: .2rem;
+  border-style: none;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1), 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+  color: white;
+  display: flex;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  height: 4rem;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.2rem;
+  width: 18rem;
+}
+
+.view-sitemap {
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+}
+
+.view-sitemap:hover {
   background-color: white;
   border-color: #FF3E55;
   border-style: solid;
@@ -1253,37 +1279,37 @@ h6 {
     width: 45rem;
   }
 
-  .user-stories {
-    padding-bottom: 2rem;
-    padding-top: 1rem;
+  .button-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 
-  .user-stories-item {
-    font-size: 1.8rem;
-    line-height: 160%;
-    width: 45rem;
+  .sitemap-image {
+    display: flex;
+    margin-bottom: 4rem;
+    width: 80%;
   }
 
   .view-user-stories {
     font-size: 1.8rem;
     height: 4rem;
-    margin-bottom: 8rem;
     margin-top: 1.2rem;
     width: 20rem;
   }
 
-  .user-flow-image {
-    display: flex;
-    width: 80%;
+  .view-user-flows.invis {
+    display: grid;
   }
 
   .view-user-flows {
     color: white;
     font-size: 1.8rem;
     height: 4rem;
-    margin-bottom: 5rem;
     margin-top: 1.2rem;
     width: 20rem;
+  }
+
+  .view-sitemap {
+    display: none;
   }
 
   /* Sketches*/
@@ -1491,15 +1517,10 @@ h6 {
   }
 
   .iteration1 {
-
-    width: 80%;
     margin-left: auto;
     margin-right: auto;
-
+    width: 80%;
   }
-
-
-
 
   .iteration-text {
     font-size: 2rem;
@@ -1631,6 +1652,11 @@ h6 {
 
   .sketch1 {
     width: 78%;
+  }
+
+  .button-grid {
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
 }
 
@@ -1851,33 +1877,23 @@ h6 {
     width: 55rem;
   }
 
-  .user-stories {
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 4rem;
-    padding-top: 4rem;
-    width: 65%;
-  }
-
-  .user-stories-item {
-    font-size: 2.4rem;
-    line-height: 160%;
-    width: 55rem;
-  }
-
   .view-user-stories {
     margin-bottom: 10rem;
     margin-top: 2rem;
   }
 
-  .user-flow-image {
-    width: 40%;
+  .button-grid {
+    margin-left: 27rem;
+    margin-right: 27rem;
+  }
+
+  .sitemap-image {
+    width: 55%;
   }
 
   .view-user-flows {
     font-size: 1.8rem;
     height: 4rem;
-    margin-bottom: 15rem;
     margin-top: 2rem;
     width: 20rem;
   }
@@ -1893,7 +1909,6 @@ h6 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     height: 80%;
-    margin-bottom: 15rem;
     margin-top: 10rem;
     overflow: hidden;
   }
@@ -2054,8 +2069,8 @@ h6 {
   }
 
   .iteration1 {
-    width: 30%;
     margin-top: 5rem;
+    width: 30%;
   }
 
   .iteration-text {
@@ -2191,5 +2206,10 @@ h6 {
     background-size: 13.5% 41%;
     font-size: 4rem;
     margin-top: 10rem;
+  }
+
+  .button-grid {
+    margin-left: 27rem;
+    margin-right: 27rem;
   }
 }
