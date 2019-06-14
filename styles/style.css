@@ -86,6 +86,19 @@ b {
   width: 100%;
 }
 
+.seefood-image {
+  margin-left: 4rem;
+  margin-right: auto;
+  padding-bottom: 2rem;
+  width: 70%;
+}
+
+.project2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
 h2 {
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
@@ -107,6 +120,7 @@ h2 {
   font-weight: lighter;
   line-height: 140%;
   padding-left: 2rem;
+  padding-right: 1rem;
 }
 
 .view-case-study {
@@ -320,6 +334,19 @@ h6 {
     width: 60%;
   }
 
+  .seefood-image {
+    margin-left: 4rem;
+    margin-right: auto;
+    padding-bottom: 2rem;
+    width: 70%;
+  }
+
+  .project2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
   /*Footer*/
   .footer-title {
     font-size: 2.4rem;
@@ -423,10 +450,11 @@ h6 {
     width: 100%;
   }
 
-  .project1 {
-    margin-left: auto;
+  .seefood-image {
+    margin-left: 10rem;
     margin-right: auto;
-    width: 50%;
+    padding-bottom: 2rem;
+    width: 60%;
   }
 
   h2 {
@@ -510,6 +538,14 @@ h6 {
     margin-right: auto;
     padding-bottom: 2rem;
     width: 100%;
+  }
+
+  .seefood-image {
+    margin-left: 10rem;
+    margin-right: auto;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    width: 60%;
   }
 
   .project1 {
