@@ -170,7 +170,8 @@ a {
 
   .header li a:hover,
   .header .menu-btn:hover {
-    background-color: white;
+    background-color: #FF3E55;
+    color: white;
   }
 
   a {
@@ -244,10 +245,6 @@ a {
     display: none;
   }
 
-  .header li a:hover,
-  .header .menu-btn:hover {
-    background-color: white;
-  }
 
   a {
     color: #FF3E55;
