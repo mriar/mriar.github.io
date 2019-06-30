@@ -164,6 +164,10 @@ a {
     top: 0px;
   }
 
+  .menu a {
+    height: 6rem !important;
+  }
+
   .header .menu-icon {
     display: none;
   }
@@ -245,6 +249,9 @@ a {
     display: none;
   }
 
+  .menu a {
+    height: 6.5rem !important;
+  }
 
   a {
     color: #FF3E55;
