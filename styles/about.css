@@ -753,19 +753,12 @@ h6 {
     margin-top: 65rem;
   }
 
-  .design-article {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 65%;
-    height: 100%;
-    overflow: hidden;
-  }
-
   .second-part {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    height: 100%;
-    overflow: hidden;
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
   }
 
   .discovering-design {
@@ -822,7 +815,7 @@ h6 {
 
   .meeting-dad {
     display: block;
-    margin-bottom: 4rem;
+    margin-bottom: 0rem;
     margin-left: auto;
     margin-right: auto;
     width: 86%;
