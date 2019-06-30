@@ -408,153 +408,159 @@ h6 {
 
 @media screen and (min-width: 1024px) {
   .blobs {
-     width: 350px;
-     height: 350px;
-     margin: auto;
-     border-radius: 100%;
-     -webkit-animation: myturn linear 16s infinite;
-     -moz-animation: myturn linear 16s infinite;
-     &:after {
-       content: '';
-       height: 10px;
-       width: 10px;
-       border-radius: 50%;
-       background: #334455;
-     }
+    -moz-animation: myturn linear 16s infinite;
+    -webkit-animation: myturn linear 16s infinite;
+    border-radius: 100%;
+    height: 350px;
+    margin: auto;
+    width: 350px;
+
+    &:after {
+      background: #334455;
+      border-radius: 50%;
+      content: '';
+      height: 10px;
+      width: 10px;
+    }
 
     &:before {
-       content: '';
-       height: 10px;
-       width: 10px;
-       border-radius: 50%;
-       background: #112222;
-       position: absolute;
-        margin-top: -60px;
-       display: block;
-        -webkit-animation: littleOrbit linear 5s infinite;
-       -moz-animation: littleOrbit linear 5s infinite;
-       animation: littleOrbit linear 5s infinite;
-     }
-   }
-
-   .blob {
-     position: absolute;
-     background: #0E1F4F;
-   }
-
-   .blob:nth-child(1) {
-     top: -10px;
-     left: -10px;
-     width: 250px;
-     height: 260px;
-     background: #0E1F4F;
-     border-radius: 100%;
-     -webkit-animation: mytopdown linear 3s infinite;
-     -moz-animation: mytopdown linear 3s infinite;
-     animation: mytopdown linear 3s infinite;
-   }
-
-   .blob:nth-child(2) {
-     top: 10px;
-     left: 10px;
-     background: #0E1F4F;
-     width: 250px;
-     height: 260px;
-     border-radius: 100%;
-     -webkit-animation: mytopleft linear 3s infinite;
-     -moz-animation: mytopleft linear 3s infinite;
-     animation: mytopleft linear 3s infinite;
-   }
-
-   .blob:nth-child(3) {
-     top: 10px;
-     left: -10px;
-     background: #0E1F4F;
-     width: 250px;
-     height: 260px;
-     border-radius: 100%;
-     -webkit-animation: mytopright linear 3s infinite;
-     -moz-animation: mytopright linear 3s infinite;
-     animation: mytopright linear 3s infinite;
-   }
-
-
-   /* Mozila + Chrome */
-
-  @keyframes littleOrbit {
-      0% {
-       top: 10px;
-        opacity: 1;
-       transform: rotate(0deg) scale(1);
-     }
-
-       50% {
-     box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-       top: -10px;
-         opacity: 0.3;
-       transform: rotate(180deg) scale(1.5);
-     }
-
-     100% {
-      top: 10px;
-         opacity: 1;
-       transform: rotate(360deg) scale(1);
-     }
+      -moz-animation: littleOrbit linear 5s infinite;
+      -webkit-animation: littleOrbit linear 5s infinite;
+      animation: littleOrbit linear 5s infinite;
+      background: #112222;
+      border-radius: 50%;
+      content: '';
+      display: block;
+      height: 10px;
+      margin-top: -60px;
+      position: absolute;
+      width: 10px;
+    }
   }
 
-   @keyframes mytopdown {
-     0% {
-       top: 0px;
-       transform: rotate(0deg) scale(1);
-     }
-     50% {
-       top: 10px;
-       transform: rotate(180deg) scale(1.04);
-     }
-     100% {
-       top: 0px;
-       transform: rotate(360deg) scale(1);
-     }
-   }
+  .blob {
+    background: #0E1F4F;
+    position: absolute;
+  }
 
-   @keyframes mytopleft {
-     0% {
-       top: 0px;
-       transform: rotate(0deg) scale(1.05);
-     }
-     50% {
-       top: 10px;
-       transform: rotate(180deg) scale(1);
-     }
-     100% {
-       top: 0px;
-       transform: rotate(360deg) scale(1.05);
-     }
-   }
+  .blob:nth-child(1) {
+    -moz-animation: mytopdown linear 3s infinite;
+    -webkit-animation: mytopdown linear 3s infinite;
+    animation: mytopdown linear 3s infinite;
+    background: #0E1F4F;
+    border-radius: 100%;
+    height: 260px;
+    left: -10px;
+    top: -10px;
+    width: 250px;
+  }
 
-   @keyframes mytopright {
-     0% {
-       top: -10px;
-       transform: rotate(0deg) scale(1);
-     }
-     50% {
-       top: 0px;
-       transform: rotate(180deg) scale(1.02);
-     }
-     100% {
-       top: -10px;
-       transform: rotate(360deg) scale();
-     }
-   }
+  .blob:nth-child(2) {
+    -moz-animation: mytopleft linear 3s infinite;
+    -webkit-animation: mytopleft linear 3s infinite;
+    animation: mytopleft linear 3s infinite;
+    background: #0E1F4F;
+    border-radius: 100%;
+    height: 260px;
+    left: 10px;
+    top: 10px;
+    width: 250px;
+  }
 
-   @-webkit-keyframes myturn {
-     0% {
-       -webkit-transform: rotate(0deg) skewX(0deg);
-     }
-     100% {
-       -webkit-transform: rotate(-360deg) skewX(0deg);
-     }
-   }
+  .blob:nth-child(3) {
+    -moz-animation: mytopright linear 3s infinite;
+    -webkit-animation: mytopright linear 3s infinite;
+    animation: mytopright linear 3s infinite;
+    background: #0E1F4F;
+    border-radius: 100%;
+    height: 260px;
+    left: -10px;
+    top: 10px;
+    width: 250px;
+  }
+
+  /* Mozila + Chrome */
+  @keyframes littleOrbit {
+    0% {
+      opacity: 1;
+      top: 10px;
+      transform: rotate(0deg) scale(1);
+    }
+
+    50% {
+      box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+      opacity: 0.3;
+      top: -10px;
+      transform: rotate(180deg) scale(1.5);
+    }
+
+    100% {
+      opacity: 1;
+      top: 10px;
+      transform: rotate(360deg) scale(1);
+    }
+  }
+
+  @keyframes mytopdown {
+    0% {
+      top: 0px;
+      transform: rotate(0deg) scale(1);
+    }
+
+    50% {
+      top: 10px;
+      transform: rotate(180deg) scale(1.04);
+    }
+
+    100% {
+      top: 0px;
+      transform: rotate(360deg) scale(1);
+    }
+  }
+
+  @keyframes mytopleft {
+    0% {
+      top: 0px;
+      transform: rotate(0deg) scale(1.05);
+    }
+
+    50% {
+      top: 10px;
+      transform: rotate(180deg) scale(1);
+    }
+
+    100% {
+      top: 0px;
+      transform: rotate(360deg) scale(1.05);
+    }
+  }
+
+  @keyframes mytopright {
+    0% {
+      top: -10px;
+      transform: rotate(0deg) scale(1);
+    }
+
+    50% {
+      top: 0px;
+      transform: rotate(180deg) scale(1.02);
+    }
+
+    100% {
+      top: -10px;
+      transform: rotate(360deg) scale();
+    }
+  }
+
+  @-webkit-keyframes myturn {
+    0% {
+      -webkit-transform: rotate(0deg) skewX(0deg);
+    }
+
+    100% {
+      -webkit-transform: rotate(-360deg) skewX(0deg);
+    }
+  }
 
   /*top hero section*/
   .portfolio-intro {
