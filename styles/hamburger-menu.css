@@ -157,7 +157,8 @@ a {
     margin-right: 0rem;
     max-height: none;
     position: relative;
-    width: 72%;
+    width: 75%;
+    height: 6rem;
   }
 
   .menu {
@@ -224,6 +225,7 @@ a {
     max-height: none;
     position: relative;
     width: 43%;
+    height: 6rem;
   }
 }
 
@@ -243,6 +245,7 @@ a {
     max-height: none;
     position: relative;
     width: 40%;
+    height: 6.5rem;
   }
 
   .header .menu-icon {
