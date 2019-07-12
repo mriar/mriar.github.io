@@ -125,7 +125,7 @@ h1 {
 
 /** Roles, Deliverables, & Tools**/
 .specs {
-  background: #d6fbfc;
+  background: #E0DCE1;
   padding-bottom: 5rem;
   padding-top: 1rem;
   text-align: center;
@@ -190,7 +190,7 @@ h1 {
 }
 
 .process {
-  background: #d6fbfc;
+  background: #E0DCE1;
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
@@ -204,7 +204,7 @@ h1 {
 
 /*Survey results*/
 .survey-section {
-  background: #d6fbfc;
+  background: #E0DCE1;
   padding-bottom: 2rem;
   padding-top: 4rem;
 }
@@ -336,7 +336,7 @@ h5 {
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
 
 blockquote {
-  background: #d6fbfc;
+  background: #E0DCE1;
   border-left: 8px solid #0E1F4F;
   color: #0E1F4F;
   font-family: 'Playfair Display', serif;
