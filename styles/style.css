@@ -22,7 +22,6 @@ b {
   width: 100%;
 }
 
-
 /** Hero image Section**/
 .portfolio-intro {
   background-image: url(../images/heroimage2.png);
@@ -98,6 +97,19 @@ b {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+
+.project3 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.busybus-image {
+  margin-left: 4rem;
+  margin-right: auto;
+  padding-bottom: 2rem;
+  width: 70%;
 }
 
 h2 {
@@ -336,6 +348,13 @@ h6 {
   }
 
   .seefood-image {
+    margin-left: 4rem;
+    margin-right: auto;
+    padding-bottom: 2rem;
+    width: 70%;
+  }
+
+  .busybus-image {
     margin-left: 4rem;
     margin-right: auto;
     padding-bottom: 2rem;
@@ -606,6 +625,13 @@ h6 {
   }
 
   .seefood-image {
+    margin-left: 10rem;
+    margin-right: auto;
+    padding-bottom: 2rem;
+    width: 60%;
+  }
+
+  .busybus-image {
     margin-left: 10rem;
     margin-right: auto;
     padding-bottom: 2rem;
