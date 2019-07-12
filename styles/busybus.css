@@ -1103,8 +1103,8 @@ h6 {
     width: 45rem;
   }
 
-  .cloudful {
-    width: 60%;
+  .busybus {
+    width: 30%;
   }
 
   .view-prototype {
@@ -1224,7 +1224,7 @@ h6 {
 
   .google-dropbox {
     display: flex;
-    width: 80%;
+    width: 40%;
   }
 
   /*User Personas Left off here*/
@@ -1522,7 +1522,7 @@ h6 {
   .iteration1 {
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 40%;
   }
 
   .iteration-text {
@@ -1535,6 +1535,8 @@ h6 {
   /*Final Product*/
   .cloudful-screens {
     margin-top: 2rem;
+    width: 30%;
+    display: flex;
   }
 
   .final-product-text {
@@ -1654,12 +1656,15 @@ h6 {
   }
 
   .sketch1 {
-    width: 78%;
+    width: 80%;
   }
 
   .button-grid {
     margin-left: 5rem;
     margin-right: 5rem;
+  }
+  .busybus {
+    width: 30%;
   }
 }
 
@@ -1679,8 +1684,8 @@ h6 {
     width: 55rem;
   }
 
-  .cloudful {
-    width: 50%;
+  .busybus {
+    width: 25%;
   }
 
   .summary-title {
@@ -1778,7 +1783,7 @@ h6 {
   /*Survey results*/
   .survey-section {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto;
     height: 100%;
     overflow: hidden;
@@ -1818,7 +1823,7 @@ h6 {
   .google-dropbox {
     display: flex;
     margin-bottom: 15rem;
-    width: 50%;
+    width: 30%;
   }
 
   /*User Personas Left off here*/
@@ -2091,7 +2096,7 @@ h6 {
   .cloudful-screens {
     display: flex;
     margin-top: 2rem;
-    width: 50%;
+    width: 25%;
   }
 
   /*Features*/
