@@ -105,6 +105,13 @@ b {
   width: 100%;
 }
 
+.project4 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  width: 100%;
+}
+
 .busybus-image {
   margin-left: 4rem;
   margin-right: auto;
@@ -122,7 +129,6 @@ h2 {
 }
 
 .project1 {
-  padding-top: 4rem;
   width: 100%;
 }
 
@@ -342,6 +348,11 @@ h6 {
   }
 
   .project1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project4 {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
@@ -624,6 +635,10 @@ h6 {
     width: 100%;
   }
 
+  .rooty {
+    padding-top: 3rem;
+  }
+
   .seefood-image {
     margin-left: 10rem;
     margin-right: auto;
@@ -655,7 +670,6 @@ h6 {
     margin-bottom: 10rem;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
   }
 
   .view-case-study {
@@ -733,6 +747,9 @@ h6 {
     margin-bottom: 10rem;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .project4 {
     width: 50%;
   }
 
@@ -894,6 +911,9 @@ h6 {
     margin-bottom: 10rem;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .project4 {
     width: 50%;
   }
 
