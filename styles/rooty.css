@@ -18,6 +18,13 @@ img {
   width: 355px;
 }
 
+.canvas-container2 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 355px;
+}
+
 .animated {
   animation-delay: .1s;
   animation-duration: 2s;
@@ -1127,8 +1134,12 @@ h6 {
 /** Responsive for ipad**/
 @media screen and (min-width: 42rem) {
   .canvas-container {
-    height: 100%;
     width: 400px;
+  }
+
+  .canvas-container2 {
+    padding-top: 5rem;
+    width: 450px;
   }
 
   /*top hero section*/
@@ -1183,7 +1194,6 @@ h6 {
   .specs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    height: 100%;
     overflow: hidden;
   }
 
@@ -1753,6 +1763,11 @@ h6 {
     width: 600px;
   }
 
+  .canvas-container2 {
+    padding-top: 10rem;
+    width: 600px;
+  }
+
   /*top hero section*/
   h1 {
     background-size: 10% 35%;
@@ -1784,7 +1799,6 @@ h6 {
   .specs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    height: 100%;
     overflow: hidden;
   }
 
@@ -2309,6 +2323,10 @@ h6 {
   }
 
   .canvas-container {
+    width: 600px;
+  }
+
+  .canvas-container2 {
     width: 600px;
   }
 }

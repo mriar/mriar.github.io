@@ -187,6 +187,8 @@
     </div>
     <div class="canvas-container">
       <canvas id="chart1" />
+    </div>
+    <div class="canvas-container2">
       <canvas id="chart2" />
     </div>
     <!-- <div class="survey-section">
@@ -543,9 +545,9 @@
     var myChart1 = new Chart(ctx1, {
       type: 'bar',
       data: {
-        labels: ['Affordability', 'Shipping Speed', 'Homepage Deals', 'Reviews', 'Sort by Low Price', 'Sign-Up'],
+        labels: ['Affordability', 'Shipping Speed', 'Homepage Deals', 'Reviews', 'Sort by Low Price', 'Creating an Account'],
         datasets: [{
-          label: 'Percentages of What Online Shoppers Care About ',
+          label: 'Percentages - What do Online Shoppers Care About? ',
           data: [76, 69, 60, 50, 61, 60],
           backgroundColor: [
             'rgba(255, 99, 132, 0.2)',
@@ -577,7 +579,29 @@
       }
     });
   </script>
+  <script>
+    var ctx2 = document.getElementById('chart2').getContext('2d');
+    var myChart2 = new Chart(ctx2, {
+      type: 'doughnut',
+      data: {
+        labels: ['Sign-in or Create an Account', 'Use Guest Checkout Option', 'Use Guest Checkout or Create an Account'],
+        datasets: [{
+          label: 'Percentages of What Online Shoppers Care About ',
+          data: [59, 25.6, 15.4],
+          backgroundColor: [
+            '#E0C3A3',
+            '#ABCFE3',
+            '#98DDCB',
 
+          ],
+
+
+        }]
+      },
+      options: {}
+
+    });
+  </script>
 </body>
 
 </html>
