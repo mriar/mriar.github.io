@@ -15,7 +15,7 @@ img {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 355px;
+  width: 350px;
 }
 
 .canvas-container2 {
@@ -23,6 +23,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 355px;
+  padding-top: 5rem;
 }
 
 .animated {
