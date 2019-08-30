@@ -22,8 +22,8 @@ img {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 355px;
   padding-top: 5rem;
+  width: 355px;
 }
 
 .animated {
@@ -1194,7 +1194,7 @@ h6 {
 
   .specs {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     overflow: hidden;
   }
 
@@ -1799,7 +1799,7 @@ h6 {
   /** Roles, Deliverables, & Tools**/
   .specs {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     overflow: hidden;
   }
 
