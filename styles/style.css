@@ -108,12 +108,23 @@ b {
 .project4 {
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
+}
+.project5 {
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 4rem;
   width: 100%;
 }
 
 .busybus-image {
   margin-left: 4rem;
+  margin-right: auto;
+  padding-bottom: 2rem;
+  width: 70%;
+}
+.bonsai{
+  margin-left: auto;
   margin-right: auto;
   padding-bottom: 2rem;
   width: 70%;
@@ -357,6 +368,11 @@ h6 {
     margin-right: auto;
     width: 60%;
   }
+  .project5 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
   .seefood-image {
     margin-left: 4rem;
@@ -371,12 +387,19 @@ h6 {
     padding-bottom: 2rem;
     width: 70%;
   }
+  .bonsai {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+    width: 70%;
+  }
 
   .project2 {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
   }
+
 
   /*Footer*/
   .footer-title {
@@ -650,6 +673,12 @@ h6 {
     margin-right: auto;
     padding-bottom: 2rem;
     width: 60%;
+  }
+  .bonsai {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+    width: 50%;
   }
 
   h2 {
